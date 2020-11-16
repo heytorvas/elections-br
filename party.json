@@ -1,0 +1,200 @@
+[
+    {
+        "name": "Movimento Democr\u00e1tico Brasileiro",
+        "abbrev": "MDB",
+        "number": "15",
+        "position": "centre"
+    },
+    {
+        "name": "Partido dos Trabalhadores",
+        "abbrev": "PT",
+        "number": "13",
+        "position": "far-left"
+    },
+    {
+        "name": "Partido da Social Democracia Brasileira",
+        "abbrev": "PSDB",
+        "number": "45",
+        "position": "centre"
+    },
+    {
+        "name": "Progressistas",
+        "abbrev": "PP",
+        "number": "11",
+        "position": "right"
+    },
+    {
+        "name": "Partido Democr\u00e1tico Trabalhista",
+        "abbrev": "PDT",
+        "number": "12",
+        "position": "left"
+    },
+    {
+        "name": "Partido Trabalhista Brasileiro",
+        "abbrev": "PTB",
+        "number": "14",
+        "position": "right"
+    },
+    {
+        "name": "Democratas",
+        "abbrev": "DEM",
+        "number": "25",
+        "position": "right"
+    },
+    {
+        "name": "Partido Liberal",
+        "abbrev": "PL",
+        "number": "22",
+        "position": "centre-right"
+    },
+    {
+        "name": "Partido Socialista Brasileiro",
+        "abbrev": "PSB",
+        "number": "40",
+        "position": "left"
+    },
+    {
+        "name": "Republicanos",
+        "abbrev": "Republicanos",
+        "number": "10",
+        "position": "right"
+    },
+    {
+        "name": "Cidadania",
+        "abbrev": "Cidadania",
+        "number": "23",
+        "position": "centre-left"
+    },
+    {
+        "name": "Partido Social Liberal",
+        "abbrev": "PSL",
+        "number": "17",
+        "position": "right"
+    },
+    {
+        "name": "Partido Social Crist\u00e3o",
+        "abbrev": "PSC",
+        "number": "20",
+        "position": "right"
+    },
+    {
+        "name": "Partido Comunista do Brasil",
+        "abbrev": "PCdoB",
+        "number": "65",
+        "position": "far-left"
+    },
+    {
+        "name": "Podemos",
+        "abbrev": "PODE",
+        "number": "19",
+        "position": "right"
+    },
+    {
+        "name": "Partido Social Democr\u00e1tico",
+        "abbrev": "PSD",
+        "number": "55",
+        "position": "centre"
+    },
+    {
+        "name": "Partido Verde",
+        "abbrev": "PV",
+        "number": "43",
+        "position": "centre"
+    },
+    {
+        "name": "Patriota",
+        "abbrev": "Patriota",
+        "number": "51",
+        "position": "right"
+    },
+    {
+        "name": "Solidariedade",
+        "abbrev": "Solidariedade",
+        "number": "77",
+        "position": "centre"
+    },
+    {
+        "name": "Partido da Mobiliza\u00e7\u00e3o Nacional",
+        "abbrev": "PMN",
+        "number": "33",
+        "position": "left"
+    },
+    {
+        "name": "Avante",
+        "abbrev": "Avante",
+        "number": "70",
+        "position": "centre"
+    },
+    {
+        "name": "Partido Trabalhista Crist\u00e3o",
+        "abbrev": "PTC",
+        "number": "36",
+        "position": "right"
+    },
+    {
+        "name": "Partido Socialismo e Liberdade",
+        "abbrev": "PSOL",
+        "number": "50",
+        "position": "far-left"
+    },
+    {
+        "name": "Democracia Crist\u00e3",
+        "abbrev": "DC",
+        "number": "27",
+        "position": "right"
+    },
+    {
+        "name": "Partido Renovador Trabalhista Brasileiro",
+        "abbrev": "PRTB",
+        "number": "28",
+        "position": "far-right"
+    },
+    {
+        "name": "Partido Republicano da Ordem Social",
+        "abbrev": "PROS",
+        "number": "90",
+        "position": "centre"
+    },
+    {
+        "name": "Partido da Mulher Brasileira",
+        "abbrev": "PMB",
+        "number": "35",
+        "position": "right"
+    },
+    {
+        "name": "Partido Novo",
+        "abbrev": "NOVO",
+        "number": "30",
+        "position": "right"
+    },
+    {
+        "name": "Rede Sustentabilidade",
+        "abbrev": "REDE",
+        "number": "18",
+        "position": "centre-left"
+    },
+    {
+        "name": "Partido Socialista dos Trabalhadores Unificado",
+        "abbrev": "PSTU",
+        "number": "16",
+        "position": "far-left"
+    },
+    {
+        "name": "Partido Comunista Brasileiro",
+        "abbrev": "PCB",
+        "number": "21",
+        "position": "far-left"
+    },
+    {
+        "name": "Partido da Causa Oper\u00e1ria",
+        "abbrev": "PCO",
+        "number": "29",
+        "position": "far-left"
+    },
+    {
+        "name": "Unidade Popular",
+        "abbrev": "UP",
+        "number": "80",
+        "position": "far-left"
+    }
+]
