@@ -69,27 +69,9 @@ def get_count_position(votes_list_position):
 
     return count_position
 
-votes_list = [
-    {'year_election': '2018', 'coalition': ['DC'], 'num_votes': '41709'},
-    {'year_election': '2018', 'coalition': ['MDB', 'PHS'], 'num_votes': '1288945'},
-    {'year_election': '2018', 'coalition': ['NOVO'], 'num_votes': '2679712'},
-    {'year_election': '2018', 'coalition': ['PATRI'], 'num_votes': '1348322'},
-    {'year_election': '2018', 'coalition': ['PDT', 'AVANTE'], 'num_votes': '13344289'},
-    {'year_election': '2018', 'coalition': ['PODE', 'PRP', 'PSC', 'PTC'], 'num_votes': '859596'},
-    {'year_election': '2018', 'coalition': ['PPL'], 'num_votes': '30175'},
-    {'year_election': '2018', 'coalition': ['PSDB', 'PTB', 'PP', 'PR', 'DEM', 'SOLIDARIEDADE', 'PPS', 'PRB', 'PSD'], 'num_votes': '5096330'},
-    {'year_election': '2018', 'coalition': ['PSL', 'PRTB'], 'num_votes': '107074179'},
-    {'year_election': '2018', 'coalition': ['PSOL', 'PCB'], 'num_votes': '617119'},
-    {'year_election': '2018', 'coalition': ['PSTU'], 'num_votes': '55762'},
-    {'year_election': '2018', 'coalition': ['PT', 'PCdoB', 'PROS'], 'num_votes': '78382771'},
-    {'year_election': '2018', 'coalition': ['REDE', 'PV'], 'num_votes': '1069570'}
-]
+def show_plot(count):
+    labels = [i for i in count.keys()]
+    values = [j for j in count.values()]
 
-votes_list_position = set_position_election(votes_list)
-count = get_count_position(votes_list_position)
-
-labels = [i for i in count.keys()]
-values = [j for j in count.values()]
-
-fig = go.Figure(data=[go.Pie(labels=labels, values=values, hole=.3)])
-fig.show()
+    fig = go.Figure(data=[go.Pie(labels=labels, values=values, hole=.3)])
+    fig.show()

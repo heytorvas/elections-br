@@ -1,4 +1,5 @@
 from electionsBR import *
+from build_graph import set_position_election, get_count_position, show_plot
 
 '''
 # COALITIONS
@@ -75,7 +76,10 @@ for index, row in vot.iterrows():
 
 # print(vot[["COMPOSICAO_COLIGACAO", "QTDE_VOTOS"]])
 # print(vot[["ANO_ELEICAO", "COMPOSICAO_COLIGACAO", "QTDE_VOTOS"]])
-print(votes_list)
+
+votes_list_position = set_position_election(votes_list)
+count = get_count_position(votes_list_position)
+show_plot(count)
 
 # BRAZIL BY ELECTION - PRESIDENT
 # ELECTION IN CITY USING COALITION ???
