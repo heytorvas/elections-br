@@ -51,7 +51,9 @@ def split_party(coalition):
 
         return party_list
     else:
-        return coalition
+        party_list = []
+        party_list.append(coalition)
+        return party_list
 
 vot = get_elections(
     year=2018, 
