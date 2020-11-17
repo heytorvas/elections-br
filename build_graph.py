@@ -1,14 +1,8 @@
-import json
 import plotly.graph_objects as go
-
-def get_party():
-    with open ('party.json', 'r') as f:
-        party_json = json.load(f)
-        f.close()
-        return party_json
+from util import get_file_json
 
 def set_position_election(votes_list):
-    party_json = get_party()
+    party_json = get_file_json('party.json')
 
     for row in votes_list:
         coalition = row['coalition']
