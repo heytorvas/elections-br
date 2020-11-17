@@ -103,13 +103,13 @@
     },
     {
         "name": "Patriota",
-        "abbrev": "Patriota",
+        "abbrev": "PATRI",
         "number": "51",
         "position": "right"
     },
     {
         "name": "Solidariedade",
-        "abbrev": "Solidariedade",
+        "abbrev": "SOLIDARIEDADE",
         "number": "77",
         "position": "centre"
     },
@@ -195,6 +195,18 @@
         "name": "Unidade Popular",
         "abbrev": "UP",
         "number": "80",
+        "position": "far-left"
+    },
+    {
+        "name": "Partido Humanista da Solidariedade",
+        "abbrev": "PHS",
+        "number": "31",
+        "position": "centre-right"
+    },
+    {
+        "name": "Partido Pátria Livre",
+        "abbrev": "PPL",
+        "number": "54",
         "position": "far-left"
     }
 ]
