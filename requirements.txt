@@ -1,2 +1,4 @@
 electionsBR
+pandas
 plotly
+bs4

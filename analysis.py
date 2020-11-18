@@ -1,8 +1,6 @@
 from build_graph import *
 from get_votes import *
 
-# plot_map_president_year(2014)
-
 ### PRESIDENT ###
 def analysis_president(year, regional_aggregation):
     votes_list = get_president_votes_list(year, regional_aggregation)
