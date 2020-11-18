@@ -9,7 +9,7 @@
         "name": "Partido dos Trabalhadores",
         "abbrev": "PT",
         "number": "13",
-        "position": "far-left"
+        "position": "left"
     },
     {
         "name": "Partido da Social Democracia Brasileira",
@@ -45,7 +45,7 @@
         "name": "Partido Liberal",
         "abbrev": "PL",
         "number": "22",
-        "position": "centre-right"
+        "position": "right"
     },
     {
         "name": "Partido Socialista Brasileiro",
@@ -57,7 +57,7 @@
         "name": "Republicanos",
         "abbrev": "Republicanos",
         "number": "10",
-        "position": "right"
+        "position": "centre-right"
     },
     {
         "name": "Cidadania",
@@ -213,7 +213,7 @@
         "name": "Partido Republicano Brasileiro",
         "abbrev": "PRB",
         "number": "10",
-        "position": "right"
+        "position": "centre-right"
     },
     {
         "name": "Partido Trabalhista Nacional",
@@ -223,9 +223,9 @@
     },
     {
         "name": "Partido da República",
-        "abbrev": "PL",
+        "abbrev": "PR",
         "number": "22",
-        "position": "centre-right"
+        "position": "right"
     },
     {
         "name": "Partido do Movimento Democrático Brasileiro",
