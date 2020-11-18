@@ -63,12 +63,12 @@ def split_party(coalition):
         party_list.append(coalition)
         return party_list
 
-def job_year_region(year, job, regional_aggregation, label_ue = ''):
+def get_votes_president(year, regional_aggregation):
     vot = get_elections(
         year= year, 
-        position= job,
+        position= 'President',
         regional_aggregation= regional_aggregation, 
-        filters={"NUM_TURNO": 1, "COD_MUN_TSE": label_ue},
+        filters={"NUM_TURNO": 1},
         political_aggregation="Coalition",
         columns=["ANO_ELEICAO", "COMPOSICAO_COLIGACAO", "QTDE_VOTOS"])
     
@@ -82,13 +82,10 @@ def get_votes_mayor(year, code):
     )
     return vot
 
-def get_mayor_votes_list(year, code):
-    votes_mayor = get_votes_mayor(year, code)
-    candidates_mayor = get_candidates_abbrev(year, 'Mayor', code)
-
+def politics_votes_list(votes, candidates):
     votes_list = []
-    for index, row in votes_mayor.iterrows():
-        for i, r in candidates_mayor.iterrows():
+    for index, row in votes.iterrows():
+        for i, r in candidates.iterrows():
             if r["NUMERO_PARTIDO"] == row["NUMERO_CANDIDATO"]:
                 votes = {
                     'year_election': row["ANO_ELEICAO"],
@@ -100,34 +97,43 @@ def get_mayor_votes_list(year, code):
 
     return votes_list
 
-def get_candidates_abbrev(year, job, label_ue = ''):
+def get_mayor_votes_list(year, code):
+    votes_mayor = get_votes_mayor(year, code)
+    candidates_mayor = get_candidates_mayor(year, code)
+
+    return politics_votes_list(votes_mayor, candidates_mayor)
+
+def get_candidates_governor(year, uf):
+    vot = get_candidates(year=year, position="Governor",
+                        filters={"SIGLA_UF": uf, "NUM_TURNO": 1},
+                        columns=["ANO_ELEICAO", "NUM_TURNO", "SIGLA_UF", "NOME_URNA_CANDIDATO", "NUMERO_PARTIDO", "SIGLA_PARTIDO", "COMPOSICAO_LEGENDA"])
+    return vot
+
+def get_votes_governor(year, uf):
+    vot = get_votes(year=year,
+            position="Governor",
+            filters={"UF": uf, "NUM_TURNO": 1},
+            columns=["ANO_ELEICAO", "UF", "NUM_TURNO", "NUMERO_CANDIDATO", "QTDE_VOTOS"]
+    )
+    return vot
+
+def get_governor_votes_list(year, uf):
+    votes_governor = get_votes_governor(year, uf)
+    candidates_governor = get_candidates_governor(year, uf)
+
+    return politics_votes_list(votes_governor, candidates_governor)
+
+def get_candidates_mayor(year, label_ue = ''):
     vot = get_candidates(
         year=year, 
-        position=job,
+        position="Mayor",
         filters={"NUM_TURNO": 1, "SIGLA_UE": label_ue},
         columns=["ANO_ELEICAO", "NOME_URNA_CANDIDATO", "SIGLA_UE", "NUMERO_PARTIDO", "SIGLA_PARTIDO", "COMPOSICAO_LEGENDA"])
 
     return vot
 
 def get_president_votes_list(year, regional_aggregation):
-    # vot = job_year_region(year, 'President', regional_aggregation)
-    # candidates = get_candidates_abbrev(year, 'President')
-    # votes_list = []
-    # for index, row in vot.iterrows():
-    #     for i, r in candidates.iterrows():
-    #         if r["COMPOSICAO_LEGENDA"] == row["COMPOSICAO_COLIGACAO"]:
-    #             coalition = split_party(row["COMPOSICAO_COLIGACAO"])
-    #             coalition.append(r["SIGLA_PARTIDO"])
-    #             votes = {
-    #                 'year_election': row["ANO_ELEICAO"],
-    #                 'name': r["NOME_URNA_CANDIDATO"],
-    #                 'label': r["SIGLA_PARTIDO"],
-    #                 'coalition': coalition,
-    #                 'num_votes': row['QTDE_VOTOS']
-    #             }
-    #             votes_list.append(votes)
-
-    vot = job_year_region(year, 'President', regional_aggregation)
+    vot = get_votes_president(year, regional_aggregation)
     votes_list = []
     for index, row in vot.iterrows():
         votes = {
