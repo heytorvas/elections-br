@@ -24,7 +24,7 @@
         "position": "right"
     },
     {
-        "name": "Partido Democr\u00e1tico Trabalhista",
+        "name": "Partido Democrático Trabalhista",
         "abbrev": "PDT",
         "number": "12",
         "position": "left"
@@ -72,7 +72,7 @@
         "position": "right"
     },
     {
-        "name": "Partido Social Crist\u00e3o",
+        "name": "Partido Social Cristão",
         "abbrev": "PSC",
         "number": "20",
         "position": "right"
@@ -90,7 +90,7 @@
         "position": "right"
     },
     {
-        "name": "Partido Social Democr\u00e1tico",
+        "name": "Partido Social Democrático",
         "abbrev": "PSD",
         "number": "55",
         "position": "centre"
@@ -105,7 +105,7 @@
         "name": "Patriota",
         "abbrev": "PATRI",
         "number": "51",
-        "position": "right"
+        "position": "far-right"
     },
     {
         "name": "Solidariedade",
@@ -114,7 +114,7 @@
         "position": "centre"
     },
     {
-        "name": "Partido da Mobiliza\u00e7\u00e3o Nacional",
+        "name": "Partido da Mobilização Nacional",
         "abbrev": "PMN",
         "number": "33",
         "position": "left"
@@ -138,7 +138,7 @@
         "position": "far-left"
     },
     {
-        "name": "Democracia Crist\u00e3",
+        "name": "Democracia Cristã",
         "abbrev": "DC",
         "number": "27",
         "position": "right"
@@ -208,5 +208,59 @@
         "abbrev": "PPL",
         "number": "54",
         "position": "far-left"
+    },
+    {
+        "name": "Partido Republicano Brasileiro",
+        "abbrev": "PRB",
+        "number": "10",
+        "position": "right"
+    },
+    {
+        "name": "Partido Trabalhista Nacional",
+        "abbrev": "PTN",
+        "number": "19",
+        "position": "right"
+    },
+    {
+        "name": "Partido da República",
+        "abbrev": "PL",
+        "number": "22",
+        "position": "centre-right"
+    },
+    {
+        "name": "Partido do Movimento Democrático Brasileiro",
+        "abbrev": "PMDB",
+        "number": "15",
+        "position": "centre"
+    },
+    {
+        "name": "Solidariedade",
+        "abbrev": "SD",
+        "number": "77",
+        "position": "centre"
+    },
+    {
+        "name": "Partido Ecológico Nacional",
+        "abbrev": "PEN",
+        "number": "51",
+        "position": "far-right"
+    },
+    {
+        "name": "Partido Trabalhista do Brasil",
+        "abbrev": "PTdoB",
+        "number": "70",
+        "position": "centre"
+    },
+    {
+        "name": "Partido Social Democrata Cristão",
+        "abbrev": "PSDC",
+        "number": "27",
+        "position": "right"
+    },
+    {
+        "name": "Partido Republicano Progressista",
+        "abbrev": "PRP",
+        "number": "44",
+        "position": "centre-right"
     }
 ]

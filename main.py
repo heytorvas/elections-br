@@ -10,13 +10,12 @@ from get_votes import *
 
 ### MAYOR ###
 year = 2016
-uf = 'RJ'
-city = 'RIO DE JANEIRO'
+uf = 'RN'
+city = 'NATAL'
 code = get_tse_code(uf, city)
 print('CITY CODE')
 votes_list = get_mayor_votes_list(year, code)
 print('VOTES LIST')
-print(votes_list)
 
 
 votes_list_position = set_position_election(votes_list)

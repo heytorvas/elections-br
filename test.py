@@ -1,7 +1,7 @@
 from get_votes import *
 
-uf = 'TO'
-city = 'PARAÍSO DO TOCANTINS'
+uf = 'RJ'
+city = 'RIO DE JANEIRO'
 year = '2016'
 
 code = get_tse_code(uf, city)
@@ -12,10 +12,6 @@ code = get_tse_code(uf, city)
 #                 candidate_number=17,
 #                 filters={"NUM_TURNO": 1},
 #                 columns=["NUMERO_CANDIDATO", "UF", "NUM_TURNO", "QTDE_VOTOS"])
-
-
-
-
 
 
 #print(get_candidates_abbrev(year, 'Mayor', code))
