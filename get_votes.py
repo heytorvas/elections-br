@@ -46,6 +46,7 @@ from util import get_file_json
 
 '''
 
+
 def get_tse_code(uf, name_city):
     tse_codes = get_file_json('data/tse-code-city.json')
     
