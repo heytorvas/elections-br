@@ -1,5 +1,7 @@
-from build_graph import set_position_election, get_count_position, show_plot
+from build_graph import *
 from get_votes import *
+
+# plot_map_president_year(2014)
 
 ### PRESIDENT ###
 # year = 2018
@@ -23,15 +25,16 @@ from get_votes import *
 
 
 ### GOVERNOR ###
-year = 2018
-uf = 'SP'
-votes_list = get_governor_votes_list(year, uf)
-print('VOTES LIST')
-for i in votes_list:
-    print(i)
+# year = 2018
+# uf = 'SP'
+# votes_list = get_governor_votes_list(year, uf)
+# print('VOTES LIST')
+# for i in votes_list:
+#     print(i)
 
-votes_list_position = set_position_election(votes_list)
-print('VOTES POSITION')
-count = get_count_position(votes_list_position)
-print('COUNT POSITION')
-show_plot(count)
+
+# votes_list_position = set_position_election(votes_list)
+# print('VOTES POSITION')
+# count = get_count_position(votes_list_position)
+# print('COUNT POSITION')
+# show_plot(count)

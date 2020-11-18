@@ -1,4 +1,6 @@
 from electionsBR import *
+from build_graph import *
+import pandas as pd
 from util import get_file_json
 
 '''
@@ -45,7 +47,7 @@ from util import get_file_json
 '''
 
 def get_tse_code(uf, name_city):
-    tse_codes = get_file_json('tse-code-city.json')
+    tse_codes = get_file_json('data/tse-code-city.json')
     
     for city in tse_codes:
         if city['uf'] == uf and city['nome_municipio'] == name_city:
@@ -74,6 +76,19 @@ def get_votes_president(year, regional_aggregation):
     
     return vot
 
+def get_president_votes_list(year, regional_aggregation):
+    vot = get_votes_president(year, regional_aggregation)
+    votes_list = []
+    for index, row in vot.iterrows():
+        votes = {
+            'year_election': row["ANO_ELEICAO"],
+            'coalition': split_party(row["COMPOSICAO_COLIGACAO"]),
+            'num_votes': row['QTDE_VOTOS']
+        }
+        votes_list.append(votes)
+    
+    return votes_list
+
 def get_votes_mayor(year, code):
     vot = get_votes(year=year,
         position="Mayor",
@@ -81,6 +96,41 @@ def get_votes_mayor(year, code):
         columns=["ANO_ELEICAO", "COD_MUN_TSE", "NUMERO_CANDIDATO", "QTDE_VOTOS"]
     )
     return vot
+
+def get_candidates_mayor(year, label_ue = ''):
+    vot = get_candidates(
+        year=year, 
+        position="Mayor",
+        filters={"NUM_TURNO": 1, "SIGLA_UE": label_ue},
+        columns=["ANO_ELEICAO", "NOME_URNA_CANDIDATO", "SIGLA_UE", "NUMERO_PARTIDO", "SIGLA_PARTIDO", "COMPOSICAO_LEGENDA"])
+
+    return vot
+
+def get_mayor_votes_list(year, code):
+    votes_mayor = get_votes_mayor(year, code)
+    candidates_mayor = get_candidates_mayor(year, code)
+
+    return politics_votes_list(votes_mayor, candidates_mayor)
+
+def get_votes_governor(year, uf):
+    vot = get_votes(year=year,
+            position="Governor",
+            filters={"UF": uf, "NUM_TURNO": 1},
+            columns=["ANO_ELEICAO", "UF", "NUM_TURNO", "NUMERO_CANDIDATO", "QTDE_VOTOS"]
+    )
+    return vot
+
+def get_candidates_governor(year, uf):
+    vot = get_candidates(year=year, position="Governor",
+                        filters={"SIGLA_UF": uf, "NUM_TURNO": 1},
+                        columns=["ANO_ELEICAO", "NUM_TURNO", "SIGLA_UF", "NOME_URNA_CANDIDATO", "NUMERO_PARTIDO", "SIGLA_PARTIDO", "COMPOSICAO_LEGENDA"])
+    return vot
+
+def get_governor_votes_list(year, uf):
+    votes_governor = get_votes_governor(year, uf)
+    candidates_governor = get_candidates_governor(year, uf)
+
+    return politics_votes_list(votes_governor, candidates_governor)
 
 def politics_votes_list(votes, candidates):
     votes_list = []
@@ -97,43 +147,18 @@ def politics_votes_list(votes, candidates):
 
     return votes_list
 
-def get_mayor_votes_list(year, code):
-    votes_mayor = get_votes_mayor(year, code)
-    candidates_mayor = get_candidates_mayor(year, code)
-
-    return politics_votes_list(votes_mayor, candidates_mayor)
-
-def get_candidates_governor(year, uf):
-    vot = get_candidates(year=year, position="Governor",
-                        filters={"SIGLA_UF": uf, "NUM_TURNO": 1},
-                        columns=["ANO_ELEICAO", "NUM_TURNO", "SIGLA_UF", "NOME_URNA_CANDIDATO", "NUMERO_PARTIDO", "SIGLA_PARTIDO", "COMPOSICAO_LEGENDA"])
+def get_votes_president_uf(year, uf):
+    vot = get_elections(
+            year= year, 
+            position= 'President',
+            regional_aggregation= 'State', 
+            filters={"NUM_TURNO": 1, "UF": uf},
+            political_aggregation="Candidate",
+            columns=["ANO_ELEICAO", "NUM_TURNO", "COMPOSICAO_COLIGACAO", "QTDE_VOTOS", "UF"])
+    
     return vot
 
-def get_votes_governor(year, uf):
-    vot = get_votes(year=year,
-            position="Governor",
-            filters={"UF": uf, "NUM_TURNO": 1},
-            columns=["ANO_ELEICAO", "UF", "NUM_TURNO", "NUMERO_CANDIDATO", "QTDE_VOTOS"]
-    )
-    return vot
-
-def get_governor_votes_list(year, uf):
-    votes_governor = get_votes_governor(year, uf)
-    candidates_governor = get_candidates_governor(year, uf)
-
-    return politics_votes_list(votes_governor, candidates_governor)
-
-def get_candidates_mayor(year, label_ue = ''):
-    vot = get_candidates(
-        year=year, 
-        position="Mayor",
-        filters={"NUM_TURNO": 1, "SIGLA_UE": label_ue},
-        columns=["ANO_ELEICAO", "NOME_URNA_CANDIDATO", "SIGLA_UE", "NUMERO_PARTIDO", "SIGLA_PARTIDO", "COMPOSICAO_LEGENDA"])
-
-    return vot
-
-def get_president_votes_list(year, regional_aggregation):
-    vot = get_votes_president(year, regional_aggregation)
+def get_votes_president_list(vot):
     votes_list = []
     for index, row in vot.iterrows():
         votes = {
@@ -144,3 +169,38 @@ def get_president_votes_list(year, regional_aggregation):
         votes_list.append(votes)
     
     return votes_list
+
+def set_dataframe_president(year):
+    states = ["AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MT", "MS",	
+ 	"MG", "PA", "PB", "PR", "PE", "PI",	"RJ", "RN",	"RS", "RO",	"RR", "SC",	
+ 	"SP", "SE", "TO"]
+
+    states_list = []
+    position_list = []
+    count_list = []
+
+    for i in states:
+        vot = get_votes_president_uf(year, i)
+        votes_list = get_votes_president_list(vot)
+        x = set_position_election(votes_list)
+        
+        # for ij in x:
+        #     print(ij)
+
+        count = get_count_position(x)
+        print(count)
+        max_key = max(count, key=count.get)
+        print(max_key, count[max_key])
+
+        states_list.append(i)
+        position_list.append(max_key)
+        count_list.append(count[max_key])
+
+    states_json = { 
+        'State': states_list, 
+        'Position': position_list, 
+        'Count': count_list, 
+    } 
+     
+    df = pd.DataFrame(states_json)
+    return df
