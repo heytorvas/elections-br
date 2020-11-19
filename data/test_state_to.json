@@ -1,0 +1,2535 @@
+[
+    {
+        "year_election": "2016",
+        "city_code": "1700251",
+        "city": "Abreulândia",
+        "name": "MARIVALDO MACHALEGRE",
+        "party": "PV",
+        "coalition": [
+            "PV",
+            "PR"
+        ],
+        "num_votes": "857",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1700301",
+        "city": "Aguiarnópolis",
+        "name": "IVAN",
+        "party": "PRB",
+        "coalition": [
+            "PRB",
+            "PDT",
+            "PMDB",
+            "PR",
+            "PSB",
+            "PSD",
+            "PT",
+            "PTB"
+        ],
+        "num_votes": "1948",
+        "position": "left"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1700350",
+        "city": "Aliança do Tocantins",
+        "name": "CORONEL TAVARES",
+        "party": "PSL",
+        "coalition": [
+            "PSL",
+            "PR",
+            "SD",
+            "PV"
+        ],
+        "num_votes": "1981",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1700400",
+        "city": "Almas",
+        "name": "VAGUINHO",
+        "party": "PMDB",
+        "coalition": [
+            "PMDB",
+            "PDT",
+            "PRB",
+            "PT",
+            "PPS"
+        ],
+        "num_votes": "2781",
+        "position": "left"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1700707",
+        "city": "Alvorada",
+        "name": "PAULO ANTONIO",
+        "party": "PSD",
+        "coalition": [
+            "PT",
+            "PSD",
+            "PSDC"
+        ],
+        "num_votes": "2849",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1701002",
+        "city": "Ananás",
+        "name": "VALBER SARAIVA",
+        "party": "PSDC",
+        "coalition": [
+            "PSDC",
+            "SD",
+            "PDT",
+            "PT",
+            "PMDB",
+            "PSB",
+            "PPS",
+            "DEM",
+            "PSD",
+            "PP",
+            "PRB",
+            "PRTB",
+            "PTB"
+        ],
+        "num_votes": "3200",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1701051",
+        "city": "Angico",
+        "name": "NEGO D'ÁGUA",
+        "party": "PP",
+        "coalition": [
+            "PP",
+            "DEM",
+            "PRB",
+            "PSB",
+            "PSDB",
+            "PTB",
+            "PDT",
+            "PHS",
+            "PROS",
+            "PSD",
+            "PSL"
+        ],
+        "num_votes": "1255",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1701101",
+        "city": "Aparecida do Rio Negro",
+        "name": "DEUSIMAR",
+        "party": "PSD",
+        "coalition": [
+            "PSD",
+            "PPL",
+            "PP",
+            "PSDB",
+            "PMN",
+            "PSB",
+            "PPS",
+            "PRB",
+            "PSL",
+            "PSC",
+            "SD",
+            "PROS",
+            "REDE"
+        ],
+        "num_votes": "2062",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1701309",
+        "city": "Aragominas",
+        "name": "PROFESSORA ELIETE",
+        "party": "PP",
+        "coalition": [
+            "PP",
+            "PT",
+            "PSL",
+            "PSC",
+            "PDT"
+        ],
+        "num_votes": "2141",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1701903",
+        "city": "Araguacema",
+        "name": "ISABELLA SIMAS",
+        "party": "PMDB",
+        "coalition": [
+            "PSD",
+            "PV",
+            "PTB",
+            "SD",
+            "PRP",
+            "PMDB"
+        ],
+        "num_votes": "2158",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1702158",
+        "city": "Araguanã",
+        "name": "FERNANDO DO OSMAR",
+        "party": "PSD",
+        "coalition": [
+            "PP",
+            "PDT",
+            "PSC",
+            "PPS",
+            "PV",
+            "PPL",
+            "PSD",
+            "DEM",
+            "PEN",
+            "PSB",
+            "PTN"
+        ],
+        "num_votes": "2089",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1702208",
+        "city": "Araguatins",
+        "name": "CLAUDIO SANTANA",
+        "party": "PMDB",
+        "coalition": [
+            "PMDB",
+            "PP",
+            "PMB",
+            "PSD",
+            "PTB",
+            "PTC",
+            "PHS",
+            "PROS"
+        ],
+        "num_votes": "5881",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1702000",
+        "city": "Araguaçu",
+        "name": "KINCA NUNES",
+        "party": "PRB",
+        "coalition": [
+            "PRB",
+            "PDT",
+            "PR",
+            "PMDB",
+            "PHS",
+            "PSD",
+            "PT",
+            "PPS",
+            "PMN"
+        ],
+        "num_votes": "3085",
+        "position": "left"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1702109",
+        "city": "Araguaína",
+        "name": "RONALDO DIMAS",
+        "party": "PR",
+        "coalition": [
+            "PR",
+            "PRTB",
+            "PRP",
+            "PSB",
+            "PTN",
+            "PROS",
+            "SD",
+            "PDT",
+            "PSD",
+            "PCdoB",
+            "DEM",
+            "PT"
+        ],
+        "num_votes": "32522",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1702307",
+        "city": "Arapoema",
+        "name": "PROFESSORA LU",
+        "party": "PSD",
+        "coalition": [
+            "PSD",
+            "PSDB",
+            "PV"
+        ],
+        "num_votes": "1304",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1702406",
+        "city": "Arraias",
+        "name": "WAGNER GENTIL",
+        "party": "PSD",
+        "coalition": [
+            "PSD",
+            "PDT",
+            "PTN",
+            "PT",
+            "PSDC"
+        ],
+        "num_votes": "2969",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1702554",
+        "city": "Augustinópolis",
+        "name": "JULIO OLIVEIRA",
+        "party": "PRB",
+        "coalition": [
+            "PRB",
+            "PT",
+            "PPS",
+            "PDT",
+            "DEM",
+            "PSC",
+            "SD"
+        ],
+        "num_votes": "4913",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1702703",
+        "city": "Aurora do Tocantins",
+        "name": "CAÇULA",
+        "party": "PTB",
+        "coalition": [
+            "PTB",
+            "PSD",
+            "PDT",
+            "PR",
+            "PSDB",
+            "SD"
+        ],
+        "num_votes": "1305",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1702901",
+        "city": "Axixá do Tocantins",
+        "name": "DAMIÃO CASTRO",
+        "party": "PMDB",
+        "coalition": [
+            "PMDB",
+            "PT",
+            "PPS",
+            "PRP",
+            "PHS",
+            "SD",
+            "PSL"
+        ],
+        "num_votes": "3554",
+        "position": "centre-right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1703008",
+        "city": "Babaçulândia",
+        "name": "ALENO",
+        "party": "PMDB",
+        "coalition": [
+            "PMDB",
+            "PROS",
+            "PV",
+            "PHS",
+            "PTN",
+            "PSC",
+            "PSDC"
+        ],
+        "num_votes": "2565",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1703057",
+        "city": "Bandeirantes do Tocantins",
+        "name": "ZÉ MÁRIO",
+        "party": "PP",
+        "coalition": [
+            "PP",
+            "PSDB",
+            "SD",
+            "PSB",
+            "DEM"
+        ],
+        "num_votes": "830",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1703073",
+        "city": "Barra do Ouro",
+        "name": "LENA",
+        "party": "PMDB",
+        "coalition": [
+            "PMDB",
+            "PTB"
+        ],
+        "num_votes": "1071",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1703107",
+        "city": "Barrolândia",
+        "name": "ADRIANO RIBEIRO",
+        "party": "PMDB",
+        "coalition": [
+            "PRB",
+            "PMDB",
+            "PTB",
+            "PSL",
+            "DEM",
+            "PPS",
+            "PV"
+        ],
+        "num_votes": "2679",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1703206",
+        "city": "Bernardo Sayão",
+        "name": "BENTINHA",
+        "party": "PMDB",
+        "coalition": [
+            "PMDB",
+            "PDT",
+            "PSB",
+            "PV"
+        ],
+        "num_votes": "1709",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1703305",
+        "city": "Bom Jesus do Tocantins",
+        "name": "PAULO HERNANDES",
+        "party": "PRB",
+        "coalition": [
+            "PRB",
+            "PHS",
+            "DEM",
+            "PMDB",
+            "PV",
+            "PSD",
+            "SD",
+            "PSC"
+        ],
+        "num_votes": "1435",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1703602",
+        "city": "Brasilândia do Tocantins",
+        "name": "RICARDO DIAS",
+        "party": "PSC",
+        "coalition": [
+            "PTB",
+            "PMDB",
+            "PSC",
+            "DEM",
+            "PSDB",
+            "PSD",
+            "SD"
+        ],
+        "num_votes": "843",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1703701",
+        "city": "Brejinho de Nazaré",
+        "name": "MIYUKI",
+        "party": "PSB",
+        "coalition": [
+            "PPS",
+            "PRB",
+            "PT",
+            "PSDC",
+            "PSB",
+            "PEN",
+            "PROS"
+        ],
+        "num_votes": "1834",
+        "position": "left"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1703800",
+        "city": "Buriti do Tocantins",
+        "name": "BORJÃO",
+        "party": "PV",
+        "coalition": [
+            "PROS",
+            "PT",
+            "PMDB",
+            "PV",
+            "DEM",
+            "PRB",
+            "PPS",
+            "PR",
+            "SD",
+            "PSDB"
+        ],
+        "num_votes": "2945",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1703826",
+        "city": "Cachoeirinha",
+        "name": "PAULO MACEDO",
+        "party": "PV",
+        "coalition": [
+            "PV",
+            "PP",
+            "PTB",
+            "PEN",
+            "PSL",
+            "PMDB",
+            "PMB",
+            "PT",
+            "PROS"
+        ],
+        "num_votes": "994",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1703842",
+        "city": "Campos Lindos",
+        "name": "JESSÉ",
+        "party": "PSC",
+        "coalition": [
+            "DEM",
+            "PRP",
+            "PTC",
+            "PHS",
+            "PMN",
+            "PSDC",
+            "PSDB",
+            "PRB",
+            "PR",
+            "PSC",
+            "PV",
+            "PPS",
+            "SD",
+            "PMDB",
+            "PSL",
+            "PTN",
+            "PDT"
+        ],
+        "num_votes": "2805",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1703867",
+        "city": "Cariri do Tocantins",
+        "name": "JUNIOR MARAJO",
+        "party": "PV",
+        "coalition": [
+            "PV",
+            "PSDB",
+            "PMDB"
+        ],
+        "num_votes": "1486",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1703883",
+        "city": "Carmolândia",
+        "name": "NEURIVAN",
+        "party": "PMN",
+        "coalition": [
+            "PHS",
+            "PMDB",
+            "PMN",
+            "PSB",
+            "SD"
+        ],
+        "num_votes": "1014",
+        "position": "left"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1703891",
+        "city": "Carrasco Bonito",
+        "name": "CARLOS ALBERTO",
+        "party": "PP",
+        "coalition": [
+            "PP",
+            "PSC",
+            "PR",
+            "PSD",
+            "DEM",
+            "PHS",
+            "PPS",
+            "PRB",
+            "PV"
+        ],
+        "num_votes": "1454",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1703909",
+        "city": "Caseara",
+        "name": "ILDISLENE SANTANA",
+        "party": "PSD",
+        "coalition": [
+            "PDT",
+            "PTN",
+            "PTB",
+            "PPS",
+            "PSD",
+            "DEM",
+            "PSDB",
+            "PV",
+            "PSL",
+            "PROS",
+            "PP",
+            "PR",
+            "PSB"
+        ],
+        "num_votes": "1654",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1704105",
+        "city": "Centenário",
+        "name": "WESLEY CAMILO",
+        "party": "PSDB",
+        "coalition": [
+            "PSDB",
+            "PR",
+            "DEM",
+            "PP",
+            "PMN",
+            "PSB",
+            "PROS",
+            "PTB"
+        ],
+        "num_votes": "986",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1705102",
+        "city": "Chapada da Natividade",
+        "name": "JOAQUIM URCINO",
+        "party": "PR",
+        "coalition": [
+            "PDT",
+            "PSDC",
+            "PR",
+            "PTB",
+            "PSDB"
+        ],
+        "num_votes": "1179",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1704600",
+        "city": "Chapada de Areia",
+        "name": "DONA MARIA (MÃE DO JAJÁ)",
+        "party": "PPS",
+        "coalition": [
+            "PT",
+            "DEM",
+            "PTN",
+            "PROS",
+            "PPS"
+        ],
+        "num_votes": "973",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1705508",
+        "city": "Colinas do Tocantins",
+        "name": "ADRIANO RABELO",
+        "party": "PRB",
+        "coalition": [
+            "PRB",
+            "PROS",
+            "PTN",
+            "PPL",
+            "PPS",
+            "PHS",
+            "PRP",
+            "PTC",
+            "PSDC",
+            "SD",
+            "PSL"
+        ],
+        "num_votes": "11407",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1716703",
+        "city": "Colméia",
+        "name": "ELZIVAN",
+        "party": "PROS",
+        "coalition": [
+            "PROS",
+            "PMDB",
+            "PV",
+            "PSDB",
+            "PSB",
+            "PP"
+        ],
+        "num_votes": "2601",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1705557",
+        "city": "Combinado",
+        "name": "DOFIM",
+        "party": "PV",
+        "coalition": [
+            "PV",
+            "PMDB",
+            "PP",
+            "PSC"
+        ],
+        "num_votes": "1638",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1705607",
+        "city": "Conceição do Tocantins",
+        "name": "PAULO ROCHA",
+        "party": "PSD",
+        "coalition": [
+            "PTB",
+            "PR",
+            "PSD",
+            "PSB",
+            "PMN",
+            "PV",
+            "PPS"
+        ],
+        "num_votes": "1745",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1706001",
+        "city": "Couto Magalhães",
+        "name": "EZEQUIEL",
+        "party": "PT",
+        "coalition": [
+            "PDT",
+            "PT",
+            "PMDB",
+            "PSC",
+            "PPS",
+            "PSD"
+        ],
+        "num_votes": "1811",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1706100",
+        "city": "Cristalândia",
+        "name": "BATATINHA",
+        "party": "PSB",
+        "coalition": [
+            "PSB",
+            "PTC",
+            "SD",
+            "PMDB",
+            "PHS",
+            "PRB",
+            "PR",
+            "PDT",
+            "PPS",
+            "PSDB",
+            "PTB"
+        ],
+        "num_votes": "2431",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1706258",
+        "city": "Crixás do Tocantins",
+        "name": "IVANIO MACHADO (CRENTÃO)",
+        "party": "PPS",
+        "coalition": [
+            "PDT",
+            "PR",
+            "PPS",
+            "SD",
+            "PROS"
+        ],
+        "num_votes": "830",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1706506",
+        "city": "Darcinópolis",
+        "name": "JACKSON",
+        "party": "PTB",
+        "coalition": [
+            "PTB",
+            "PSC",
+            "PRB",
+            "PHS",
+            "PPS",
+            "PSB",
+            "SD",
+            "DEM",
+            "PTN",
+            "PSL",
+            "PMN",
+            "PSDB"
+        ],
+        "num_votes": "2324",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1707009",
+        "city": "Dianópolis",
+        "name": "PADRE GLEIBSON",
+        "party": "PSB",
+        "coalition": [
+            "PRB",
+            "PTN",
+            "PSB",
+            "PROS",
+            "DEM"
+        ],
+        "num_votes": "6583",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1707108",
+        "city": "Divinópolis do Tocantins",
+        "name": "PADRE FLORISVANE",
+        "party": "PSD",
+        "coalition": [
+            "DEM",
+            "PCdoB",
+            "PHS",
+            "PMDB",
+            "PRP",
+            "PSD",
+            "PSDC",
+            "PT",
+            "PV"
+        ],
+        "num_votes": "2563",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1707207",
+        "city": "Dois Irmãos do Tocantins",
+        "name": "WANILSON",
+        "party": "PV",
+        "coalition": [
+            "PV",
+            "PT",
+            "PSL",
+            "PDT",
+            "PSDB",
+            "PP",
+            "SD",
+            "PRB"
+        ],
+        "num_votes": "2180",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1707306",
+        "city": "Dueré",
+        "name": "VALDENI CARVALHO",
+        "party": "PSD",
+        "coalition": [
+            "PSD",
+            "PT",
+            "PV"
+        ],
+        "num_votes": "1518",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1707405",
+        "city": "Esperantina",
+        "name": "DR. ARMANDO",
+        "party": "PP",
+        "coalition": [
+            "PV",
+            "PP",
+            "SD"
+        ],
+        "num_votes": "1744",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1707652",
+        "city": "Figueirópolis",
+        "name": "FERNANDES",
+        "party": "PMDB",
+        "coalition": [
+            "PMDB",
+            "PDT",
+            "PPS",
+            "PHS",
+            "PP",
+            "PSD",
+            "PT",
+            "SD",
+            "PSL",
+            "PR",
+            "PRB",
+            "PRP",
+            "PEN",
+            "PROS",
+            "PTC"
+        ],
+        "num_votes": "2552",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1707702",
+        "city": "Filadélfia",
+        "name": "MIZÔ ALENCAR",
+        "party": "PMDB",
+        "coalition": [
+            "PDT",
+            "PMDB",
+            "DEM",
+            "PSC",
+            "PHS",
+            "PSDB"
+        ],
+        "num_votes": "2600",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1708205",
+        "city": "Formoso do Araguaia",
+        "name": "WAGNER DA GRAFICA",
+        "party": "PRTB",
+        "coalition": [
+            "PRTB",
+            "PSDC",
+            "PHS",
+            "PDT",
+            "PEN",
+            "DEM",
+            "SD"
+        ],
+        "num_votes": "3232",
+        "position": "far-right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1708254",
+        "city": "Fortaleza do Tabocão",
+        "name": "VAGUIM DO VALDOMIRO",
+        "party": "SD",
+        "coalition": [
+            "PMDB",
+            "PHS",
+            "PRTB",
+            "PCdoB",
+            "SD"
+        ],
+        "num_votes": "1440",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1707553",
+        "city": "Fátima",
+        "name": "WASHINGTON VASCONCELOS",
+        "party": "PSD",
+        "coalition": [
+            "PSD",
+            "PP",
+            "PTB",
+            "PPS",
+            "PR"
+        ],
+        "num_votes": "1028",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1708304",
+        "city": "Goianorte",
+        "name": "LUCIANO",
+        "party": "PSD",
+        "coalition": [
+            "PSB",
+            "PSC",
+            "PSD",
+            "PSDB",
+            "PDT",
+            "DEM",
+            "PR",
+            "PRB"
+        ],
+        "num_votes": "2500",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1709005",
+        "city": "Goiatins",
+        "name": "ANTONIO LUIZ",
+        "party": "PR",
+        "coalition": [
+            "PR",
+            "PSB",
+            "SD"
+        ],
+        "num_votes": "3126",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1709302",
+        "city": "Guaraí",
+        "name": "PROFª. LIRES FERNEDA",
+        "party": "PSDB",
+        "coalition": [
+            "PSDB",
+            "PDT",
+            "PR",
+            "PROS",
+            "PTN",
+            "PHS",
+            "PMDB"
+        ],
+        "num_votes": "5878",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1709500",
+        "city": "Gurupi",
+        "name": "LAUREZ MOREIRA",
+        "party": "PSB",
+        "coalition": [
+            "PSB",
+            "DEM",
+            "PDT",
+            "PMB",
+            "PMN",
+            "PP",
+            "PPS",
+            "PROS",
+            "PRP",
+            "PSC",
+            "PSD",
+            "PSDC",
+            "PT",
+            "PTB",
+            "PV",
+            "SD",
+            "PMDB",
+            "PRB"
+        ],
+        "num_votes": "20640",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1709807",
+        "city": "Ipueiras",
+        "name": "CAIO AUGUSTO",
+        "party": "PSDB",
+        "coalition": [
+            "PTB",
+            "PSB",
+            "PDT",
+            "PMN",
+            "PP",
+            "DEM",
+            "PR",
+            "PSL",
+            "PSD",
+            "PSDB"
+        ],
+        "num_votes": "751",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1710508",
+        "city": "Itacajá",
+        "name": "MANOEL PINHEIRO",
+        "party": "PSDB",
+        "coalition": [
+            "PMDB",
+            "PV",
+            "PSDB",
+            "PROS"
+        ],
+        "num_votes": "2403",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1710706",
+        "city": "Itaguatins",
+        "name": "IVONEIDE BARRETO",
+        "party": "PR",
+        "coalition": [
+            "PR",
+            "DEM",
+            "PRB",
+            "PRP",
+            "SD",
+            "PSDB",
+            "PSL",
+            "PP"
+        ],
+        "num_votes": "1815",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1710904",
+        "city": "Itapiratins",
+        "name": "MARCIO PINHEIRO",
+        "party": "PSD",
+        "coalition": [
+            "PSD",
+            "PSDB",
+            "PR",
+            "PT",
+            "DEM",
+            "PV"
+        ],
+        "num_votes": "2372",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1711100",
+        "city": "Itaporã do Tocantins",
+        "name": "ZÉ REZENDE",
+        "party": "SD",
+        "coalition": [
+            "SD",
+            "PSD",
+            "DEM",
+            "PR",
+            "PSC",
+            "PT",
+            "PSB"
+        ],
+        "num_votes": "1245",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1711506",
+        "city": "Jaú do Tocantins",
+        "name": "ONASSYS",
+        "party": "PSD",
+        "coalition": [
+            "PSD",
+            "PSDB",
+            "PT",
+            "PMDB",
+            "PV",
+            "PSB",
+            "PSC",
+            "PSDC",
+            "DEM"
+        ],
+        "num_votes": "1574",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1711803",
+        "city": "Juarina",
+        "name": "IVO DINIZ",
+        "party": "PMDB",
+        "coalition": [
+            "PMDB",
+            "PMB",
+            "PTN",
+            "PTB",
+            "PSL",
+            "PSDC",
+            "PT",
+            "PP"
+        ],
+        "num_votes": "1015",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1711902",
+        "city": "Lagoa da Confusão",
+        "name": "NELSINHO",
+        "party": "PRB",
+        "coalition": [
+            "PRB",
+            "PT",
+            "PTN",
+            "PMN",
+            "PR",
+            "PSB"
+        ],
+        "num_votes": "4326",
+        "position": "left"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1711951",
+        "city": "Lagoa do Tocantins",
+        "name": "NONATO NESTOR",
+        "party": "PSB",
+        "coalition": [
+            "PSB",
+            "PMDB"
+        ],
+        "num_votes": "1095",
+        "position": "left"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1712009",
+        "city": "Lajeado",
+        "name": "DR. TERCIO",
+        "party": "PSD",
+        "coalition": [
+            "PSD",
+            "PSC",
+            "PTN",
+            "PROS",
+            "DEM",
+            "SD",
+            "PRB",
+            "PDT",
+            "PCdoB",
+            "PSDC",
+            "PPS",
+            "PR"
+        ],
+        "num_votes": "1382",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1712157",
+        "city": "Lavandeira",
+        "name": "CESAR",
+        "party": "PMDB",
+        "coalition": [
+            "PMDB",
+            "PSC",
+            "PV"
+        ],
+        "num_votes": "860",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1712405",
+        "city": "Lizarda",
+        "name": "SUSSU",
+        "party": "PSD",
+        "coalition": [
+            "PSD",
+            "PV",
+            "PT",
+            "PSC",
+            "PMDB",
+            "PTB"
+        ],
+        "num_votes": "1418",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1712454",
+        "city": "Luzinópolis",
+        "name": "GUSTAVO NOVATO",
+        "party": "PR",
+        "coalition": [
+            "PPS",
+            "PR",
+            "SD",
+            "PV",
+            "PSC",
+            "PMDB",
+            "PP",
+            "PDT"
+        ],
+        "num_votes": "1292",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1712504",
+        "city": "Marianópolis do Tocantins",
+        "name": "ZÉ DO RUI",
+        "party": "PTB",
+        "coalition": [
+            "PTB",
+            "PSC",
+            "DEM",
+            "PR",
+            "PDT",
+            "PROS",
+            "PSDB",
+            "PV"
+        ],
+        "num_votes": "1369",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1712702",
+        "city": "Mateiros",
+        "name": "PASTOR JOÃO",
+        "party": "PTN",
+        "coalition": [
+            "PTB",
+            "PTN",
+            "PRTB",
+            "PHS",
+            "PV",
+            "PROS",
+            "PSB",
+            "PPL"
+        ],
+        "num_votes": "650",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1712801",
+        "city": "Maurilândia do Tocantins",
+        "name": "LEONEIDE",
+        "party": "PR",
+        "coalition": [
+            "PR",
+            "PHS",
+            "PSDB",
+            "PRB",
+            "PSDC",
+            "PV",
+            "PRP",
+            "PPL",
+            "PSD"
+        ],
+        "num_votes": "1305",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1713205",
+        "city": "Miracema do Tocantins",
+        "name": "MOISÉS DA SERCON",
+        "party": "PMDB",
+        "coalition": [
+            "PMDB",
+            "PRTB",
+            "PTB",
+            "SD",
+            "PHS",
+            "PRB",
+            "PV",
+            "PT",
+            "PSC",
+            "PSDB",
+            "PSB",
+            "PP",
+            "PRP",
+            "PSL",
+            "DEM"
+        ],
+        "num_votes": "9918",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1713304",
+        "city": "Miranorte",
+        "name": "CARLINHO DA NACIONAL",
+        "party": "PMDB",
+        "coalition": [
+            "PMDB",
+            "PSB",
+            "PRB",
+            "SD",
+            "DEM",
+            "PSC",
+            "PSD",
+            "PV",
+            "PT"
+        ],
+        "num_votes": "4270",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1713601",
+        "city": "Monte do Carmo",
+        "name": "DATE",
+        "party": "PSD",
+        "coalition": [
+            "PSD",
+            "PSDB",
+            "PCdoB",
+            "PRTB",
+            "PPL",
+            "PROS",
+            "PSL",
+            "PRB",
+            "PHS"
+        ],
+        "num_votes": "1955",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1713700",
+        "city": "Monte Santo do Tocantins",
+        "name": "CLÉO",
+        "party": "PRB",
+        "coalition": [
+            "PRB",
+            "PSC",
+            "DEM",
+            "PR",
+            "PHS",
+            "PSDB",
+            "PT",
+            "PSL",
+            "PV",
+            "PSB",
+            "PDT",
+            "PTB"
+        ],
+        "num_votes": "1308",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1713957",
+        "city": "Muricilândia",
+        "name": "ALESSANDRO BORGES",
+        "party": "PP",
+        "coalition": [
+            "PP",
+            "PMDB",
+            "PTN",
+            "PRB",
+            "PTB"
+        ],
+        "num_votes": "809",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1714203",
+        "city": "Natividade",
+        "name": "PROFESSORA MARTINHA",
+        "party": "PTN",
+        "coalition": [
+            "PTN",
+            "PRP",
+            "PCdoB",
+            "PSD"
+        ],
+        "num_votes": "2165",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1714302",
+        "city": "Nazaré",
+        "name": "ELVIRA",
+        "party": "PV",
+        "coalition": [
+            "PV",
+            "PRB",
+            "PR",
+            "PP",
+            "PSD",
+            "PSDB"
+        ],
+        "num_votes": "1787",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1714880",
+        "city": "Nova Olinda",
+        "name": "ZÉ PEDRO",
+        "party": "PTB",
+        "coalition": [
+            "PTB",
+            "PP",
+            "PR",
+            "PSC",
+            "PSDB",
+            "SD",
+            "PSB",
+            "PHS",
+            "PROS",
+            "PDT"
+        ],
+        "num_votes": "3331",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1715002",
+        "city": "Nova Rosalândia",
+        "name": "DRº. LADIR",
+        "party": "PSB",
+        "coalition": [
+            "PSB",
+            "PRB",
+            "PSD",
+            "PPS",
+            "PR",
+            "PTB",
+            "PHS",
+            "DEM"
+        ],
+        "num_votes": "1412",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1715101",
+        "city": "Novo Acordo",
+        "name": "DOTOZIM",
+        "party": "PMDB",
+        "coalition": [
+            "PMDB",
+            "PRB",
+            "PPS",
+            "PV",
+            "PSL",
+            "PSDC",
+            "DEM",
+            "PMB",
+            "PROS"
+        ],
+        "num_votes": "1468",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1715150",
+        "city": "Novo Alegre",
+        "name": "FERNANDO",
+        "party": "PMDB",
+        "coalition": [
+            "PTB",
+            "PMDB",
+            "PSL",
+            "PR",
+            "PSDB",
+            "SD"
+        ],
+        "num_votes": "963",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1715259",
+        "city": "Novo Jardim",
+        "name": "ARLINDO",
+        "party": "PMDB",
+        "coalition": [
+            "PMDB",
+            "PT",
+            "PHS",
+            "PROS",
+            "PSC",
+            "SD"
+        ],
+        "num_votes": "903",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1715507",
+        "city": "Oliveira de Fátima",
+        "name": "GESIEL",
+        "party": "PR",
+        "coalition": [
+            "PTB",
+            "PMDB",
+            "PR",
+            "SD",
+            "PRP"
+        ],
+        "num_votes": "942",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1721000",
+        "city": "Palmas",
+        "name": "AMASTHA",
+        "party": "PSB",
+        "coalition": [
+            "PSB",
+            "PTB",
+            "PMN",
+            "PSL",
+            "PTC",
+            "PCdoB",
+            "PRP",
+            "PSDB"
+        ],
+        "num_votes": "68634",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1715705",
+        "city": "Palmeirante",
+        "name": "CHARLES RODRIGUES",
+        "party": "PSD",
+        "coalition": [
+            "PSD",
+            "PTC",
+            "PHS",
+            "PSC",
+            "PMN",
+            "PMDB",
+            "PT",
+            "SD",
+            "PV"
+        ],
+        "num_votes": "1795",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1713809",
+        "city": "Palmeiras do Tocantins",
+        "name": "NALVA BRAGA",
+        "party": "PP",
+        "coalition": [
+            "PP",
+            "PDT",
+            "PPS",
+            "PSDB",
+            "PEN",
+            "PSD",
+            "PSC",
+            "DEM",
+            "PR",
+            "PHS",
+            "PSB",
+            "PTN",
+            "PSL"
+        ],
+        "num_votes": "1873",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1715754",
+        "city": "Palmeirópolis",
+        "name": "FÁBIO VAZ",
+        "party": "PSD",
+        "coalition": [
+            "PSD",
+            "PT",
+            "PRB",
+            "PTN",
+            "PR",
+            "PSB",
+            "PSC",
+            "PSDB",
+            "PV"
+        ],
+        "num_votes": "2697",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1716208",
+        "city": "Paranã",
+        "name": "FABRICIO VIANA",
+        "party": "PMDB",
+        "coalition": [
+            "PMDB",
+            "PTN",
+            "PTC",
+            "PRP",
+            "PDT",
+            "PRTB"
+        ],
+        "num_votes": "3050",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1716109",
+        "city": "Paraíso do Tocantins",
+        "name": "MOISÉS AVELINO",
+        "party": "PMDB",
+        "coalition": [
+            "PMDB",
+            "PTB",
+            "PHS",
+            "PSL",
+            "PRP",
+            "PR",
+            "PP"
+        ],
+        "num_votes": "11937",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1716307",
+        "city": "Pau D'Arco",
+        "name": "JOÃO DA SERRARIA",
+        "party": "PP",
+        "coalition": [
+            "PRB",
+            "PP",
+            "PDT",
+            "PSD",
+            "PV",
+            "PROS",
+            "PT",
+            "PPS"
+        ],
+        "num_votes": "1359",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1716505",
+        "city": "Pedro Afonso",
+        "name": "JAIRO MARIANO",
+        "party": "PDT",
+        "coalition": [
+            "PDT",
+            "PSC",
+            "PRB",
+            "PT",
+            "PTB",
+            "PSL",
+            "PTN",
+            "PR",
+            "DEM",
+            "PRTB",
+            "PHS",
+            "PSB",
+            "PV",
+            "PCdoB"
+        ],
+        "num_votes": "3105",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1716604",
+        "city": "Peixe",
+        "name": "DR. ZÉ AUGUSTO",
+        "party": "PR",
+        "coalition": [
+            "PR",
+            "PDT",
+            "PSC",
+            "PTC",
+            "PTdoB",
+            "SD",
+            "PMDB"
+        ],
+        "num_votes": "1714",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1716653",
+        "city": "Pequizeiro",
+        "name": "DR. PAULINHO",
+        "party": "PMDB",
+        "coalition": [
+            "PMDB",
+            "DEM",
+            "PT",
+            "PSD",
+            "PSC",
+            "PRTB",
+            "SD"
+        ],
+        "num_votes": "1925",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1717008",
+        "city": "Pindorama do Tocantins",
+        "name": "SILVOGAS",
+        "party": "PSDB",
+        "coalition": [
+            "PSC",
+            "PSDB",
+            "DEM",
+            "PTC",
+            "SD",
+            "PHS",
+            "PP",
+            "PSDC",
+            "PTN",
+            "PPS"
+        ],
+        "num_votes": "1538",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1717206",
+        "city": "Piraquê",
+        "name": "EDUARDO SOBRINHO",
+        "party": "PMDB",
+        "coalition": [
+            "PDT",
+            "PTB",
+            "PMDB",
+            "PPS",
+            "SD"
+        ],
+        "num_votes": "956",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1717503",
+        "city": "Pium",
+        "name": "VALDEMIR BARROS",
+        "party": "PSDB",
+        "coalition": [
+            "PSDB",
+            "PR",
+            "PPS"
+        ],
+        "num_votes": "1842",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1717800",
+        "city": "Ponte Alta do Bom Jesus",
+        "name": "YAPORAN",
+        "party": "PV",
+        "coalition": [
+            "PMDB",
+            "PV",
+            "PP",
+            "SD"
+        ],
+        "num_votes": "1442",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1717909",
+        "city": "Ponte Alta do Tocantins",
+        "name": "KLEBER DO SACOLÃO",
+        "party": "PR",
+        "coalition": [
+            "PR",
+            "PPS",
+            "PSD",
+            "PDT",
+            "PRB"
+        ],
+        "num_votes": "1209",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1718006",
+        "city": "Porto Alegre do Tocantins",
+        "name": "RENNAN CERQUEIRA",
+        "party": "PR",
+        "coalition": [
+            "PR",
+            "PTB",
+            "PSD",
+            "PSC",
+            "PP",
+            "PDT",
+            "PMDB"
+        ],
+        "num_votes": "946",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1718204",
+        "city": "Porto Nacional",
+        "name": "JOAQUIM MAIA",
+        "party": "PV",
+        "coalition": [
+            "PRB",
+            "PT",
+            "PMDB",
+            "PSL",
+            "DEM",
+            "PSDC",
+            "PMB",
+            "PSB",
+            "PV",
+            "PSOL",
+            "PROS",
+            "PEN"
+        ],
+        "num_votes": "16988",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1718303",
+        "city": "Praia Norte",
+        "name": "HO-CHE-MIN",
+        "party": "PMDB",
+        "coalition": [
+            "PMDB",
+            "PHS",
+            "PEN",
+            "PTN",
+            "PV",
+            "PROS",
+            "PSD"
+        ],
+        "num_votes": "3126",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1718402",
+        "city": "Presidente Kennedy",
+        "name": "AILTON FRANCISCO",
+        "party": "PSD",
+        "coalition": [
+            "PT",
+            "PROS",
+            "PTN",
+            "PR",
+            "PSD"
+        ],
+        "num_votes": "945",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1718451",
+        "city": "Pugmil",
+        "name": "MARIA DE JESUS",
+        "party": "PPS",
+        "coalition": [
+            "PPS",
+            "PTB",
+            "PSDB",
+            "PSB",
+            "PR"
+        ],
+        "num_votes": "929",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1718501",
+        "city": "Recursolândia",
+        "name": "NADI",
+        "party": "PV",
+        "coalition": [
+            "PT",
+            "PTB",
+            "PMDB",
+            "PTN",
+            "DEM",
+            "PV",
+            "PSD",
+            "SD"
+        ],
+        "num_votes": "1480",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1718550",
+        "city": "Riachinho",
+        "name": "DIVA",
+        "party": "PR",
+        "coalition": [
+            "PDT",
+            "PT",
+            "PMDB",
+            "PR",
+            "PV"
+        ],
+        "num_votes": "1587",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1718659",
+        "city": "Rio da Conceição",
+        "name": "MAURO JUNIOR",
+        "party": "PR",
+        "coalition": [
+            "PSD",
+            "PSDB",
+            "PPS",
+            "PMDB",
+            "PR"
+        ],
+        "num_votes": "873",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1718709",
+        "city": "Rio dos Bois",
+        "name": "MOACIR OLIVEIRA",
+        "party": "PV",
+        "coalition": [
+            "DEM",
+            "PMB",
+            "PR",
+            "PV",
+            "PTC",
+            "PSDB",
+            "PSC"
+        ],
+        "num_votes": "972",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1718758",
+        "city": "Rio Sono",
+        "name": "DR. JOÃO",
+        "party": "DEM",
+        "coalition": [
+            "PSC",
+            "PR",
+            "PSDB",
+            "DEM",
+            "PSB",
+            "PV"
+        ],
+        "num_votes": "1711",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1718808",
+        "city": "Sampaio",
+        "name": "ARMINDO CAYRES",
+        "party": "PR",
+        "coalition": [
+            "PR",
+            "PT",
+            "PDT",
+            "PTB",
+            "SD",
+            "PRB",
+            "PSB",
+            "PSDC",
+            "PMN"
+        ],
+        "num_votes": "1309",
+        "position": "left"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1718840",
+        "city": "Sandolândia",
+        "name": "SILVINHA",
+        "party": "PR",
+        "coalition": [
+            "PR",
+            "PP",
+            "PSC",
+            "PT",
+            "PHS",
+            "SD"
+        ],
+        "num_votes": "1513",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1718865",
+        "city": "Santa Fé do Araguaia",
+        "name": "OIDIO",
+        "party": "PP",
+        "coalition": [
+            "PP",
+            "PROS",
+            "PMN",
+            "PMDB",
+            "PV",
+            "PRTB"
+        ],
+        "num_votes": "2977",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1718881",
+        "city": "Santa Maria do Tocantins",
+        "name": "BARRACHINI",
+        "party": "SD",
+        "coalition": [
+            "SD",
+            "PSC",
+            "PPS",
+            "PR",
+            "PSL",
+            "PSB"
+        ],
+        "num_votes": "1312",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1718899",
+        "city": "Santa Rita do Tocantins",
+        "name": "ARTHUR MAIA",
+        "party": "PSD",
+        "coalition": [
+            "PROS",
+            "PMDB",
+            "PSD",
+            "PV",
+            "PTB",
+            "PSC",
+            "PP"
+        ],
+        "num_votes": "885",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1718907",
+        "city": "Santa Rosa do Tocantins",
+        "name": "AILTON ARAUJO",
+        "party": "PR",
+        "coalition": [
+            "PR",
+            "PTN",
+            "PPS",
+            "PSDB",
+            "SD",
+            "DEM"
+        ],
+        "num_votes": "1609",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1719004",
+        "city": "Santa Tereza do Tocantins",
+        "name": "RAIMUNDO GORDO",
+        "party": "PV",
+        "coalition": [
+            "PV",
+            "PPS",
+            "PMDB"
+        ],
+        "num_votes": "1091",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1720002",
+        "city": "Santa Terezinha do Tocantins",
+        "name": "PROFESSORA ITELMA",
+        "party": "PMDB",
+        "coalition": [
+            "PRB",
+            "PP",
+            "PDT",
+            "PMDB",
+            "PR",
+            "PSB"
+        ],
+        "num_votes": "1045",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1720655",
+        "city": "Silvanópolis",
+        "name": "GERNIVON",
+        "party": "PSD",
+        "coalition": [
+            "PSD",
+            "DEM",
+            "PSL",
+            "PMN",
+            "PRB",
+            "PDT",
+            "PROS",
+            "PTN",
+            "PRTB",
+            "PSDB"
+        ],
+        "num_votes": "1952",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1720853",
+        "city": "Sucupira",
+        "name": "EDINHO",
+        "party": "PTB",
+        "coalition": [
+            "PTB",
+            "SD",
+            "PSC"
+        ],
+        "num_votes": "816",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1720101",
+        "city": "São Bento do Tocantins",
+        "name": "RONALDO PARENTE",
+        "party": "PSB",
+        "coalition": [
+            "PSB",
+            "PMDB",
+            "PTB",
+            "PR",
+            "PRB",
+            "REDE",
+            "PSDB"
+        ],
+        "num_votes": "1953",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1720150",
+        "city": "São Félix do Tocantins",
+        "name": "MARLEN",
+        "party": "PSD",
+        "coalition": [
+            "PSD",
+            "PSDB",
+            "PR",
+            "PMDB"
+        ],
+        "num_votes": "1003",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1720200",
+        "city": "São Miguel do Tocantins",
+        "name": "ELISANGELA",
+        "party": "PR",
+        "coalition": [
+            "PR",
+            "PTB",
+            "PSDB",
+            "PRB",
+            "PP",
+            "PT",
+            "PSL",
+            "PSDC",
+            "PHS"
+        ],
+        "num_votes": "2758",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1720259",
+        "city": "São Salvador do Tocantins",
+        "name": "ANDRÉ BORBA",
+        "party": "PMDB",
+        "coalition": [
+            "PMDB",
+            "PPS",
+            "PV"
+        ],
+        "num_votes": "1074",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1720309",
+        "city": "São Sebastião do Tocantins",
+        "name": "PROFESSOR ADRIANO",
+        "party": "PT",
+        "coalition": [
+            "PT",
+            "PSC",
+            "PV",
+            "PHS",
+            "DEM",
+            "PRTB",
+            "PPS"
+        ],
+        "num_votes": "1374",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1720499",
+        "city": "São Valério",
+        "name": "OLIMPIO ARRAES",
+        "party": "PSD",
+        "coalition": [
+            "PV",
+            "PSL",
+            "PPS",
+            "PSD",
+            "PSDC",
+            "SD"
+        ],
+        "num_votes": "1164",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1720804",
+        "city": "Sítio Novo do Tocantins",
+        "name": "ALEXANDRE FARIAS",
+        "party": "SD",
+        "coalition": [
+            "SD",
+            "PSL",
+            "PRP",
+            "PSDB",
+            "PROS",
+            "PCdoB",
+            "PSDC",
+            "PTB",
+            "PP",
+            "PHS"
+        ],
+        "num_votes": "3425",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1720903",
+        "city": "Taguatinga",
+        "name": "PAULO ROBERTO",
+        "party": "PSD",
+        "coalition": [
+            "PSD",
+            "PSC",
+            "PDT",
+            "PMN"
+        ],
+        "num_votes": "3001",
+        "position": "left"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1720937",
+        "city": "Taipas do Tocantins",
+        "name": "SILVIO ROMÉRIO",
+        "party": "PMDB",
+        "coalition": [
+            "PP",
+            "PMDB",
+            "PSL",
+            "PR",
+            "DEM",
+            "PSB",
+            "PV"
+        ],
+        "num_votes": "901",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1720978",
+        "city": "Talismã",
+        "name": "DIOGO BORGES",
+        "party": "PSB",
+        "coalition": [
+            "PSB",
+            "PTB",
+            "PPS",
+            "PT",
+            "PSL",
+            "PSC"
+        ],
+        "num_votes": "1118",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1721208",
+        "city": "Tocantinópolis",
+        "name": "PAULINHO DO BONIFÁCIO",
+        "party": "PSD",
+        "coalition": [
+            "PSD",
+            "PSDB",
+            "PROS",
+            "PSL",
+            "PSC",
+            "PHS",
+            "PR"
+        ],
+        "num_votes": "5107",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1721109",
+        "city": "Tocantínia",
+        "name": "SILVINO",
+        "party": "SD",
+        "coalition": [
+            "SD",
+            "PR",
+            "PSDB",
+            "PRB",
+            "PTN",
+            "PP",
+            "PSL",
+            "PMDB"
+        ],
+        "num_votes": "2937",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1721257",
+        "city": "Tupirama",
+        "name": "DR. NATAN",
+        "party": "PP",
+        "coalition": [
+            "PP",
+            "PDT",
+            "PSC",
+            "DEM",
+            "PSDB",
+            "PSD",
+            "PROS"
+        ],
+        "num_votes": "670",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1721307",
+        "city": "Tupiratins",
+        "name": "WELTMAN VELOSO",
+        "party": "PSD",
+        "coalition": [
+            "PSD",
+            "PTN",
+            "PR",
+            "DEM",
+            "PSDB"
+        ],
+        "num_votes": "1043",
+        "position": "right"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1722081",
+        "city": "Wanderlândia",
+        "name": "EDUARDO MADRUGA",
+        "party": "PMDB",
+        "coalition": [
+            "PRB",
+            "PP",
+            "PT",
+            "PMDB",
+            "PSL",
+            "PTN",
+            "PSC",
+            "PR",
+            "PMN",
+            "PV",
+            "PRP",
+            "PSD",
+            "SD",
+            "PROS"
+        ],
+        "num_votes": "4241",
+        "position": "centre"
+    },
+    {
+        "year_election": "2016",
+        "city_code": "1722107",
+        "city": "Xambioá",
+        "name": "PATRICIA EVELIN",
+        "party": "PMDB",
+        "coalition": [
+            "PMDB",
+            "PRTB",
+            "PPS",
+            "PSC",
+            "PT"
+        ],
+        "num_votes": "3084",
+        "position": "centre"
+    }
+]

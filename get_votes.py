@@ -94,7 +94,8 @@ def get_votes_mayor(year, code):
     vot = get_votes(year=year,
         position="Mayor",
         filters={"COD_MUN_TSE": code},
-        columns=["ANO_ELEICAO", "COD_MUN_TSE", "NUMERO_CANDIDATO", "QTDE_VOTOS"]
+        columns=["ANO_ELEICAO", "COD_MUN_TSE", "COD_MUN_IBGE",
+                "NOME_MUNICIPIO", "NUMERO_CANDIDATO", "QTDE_VOTOS"]
     )
     return vot
 
@@ -140,7 +141,10 @@ def politics_votes_list(votes, candidates):
             if r["NUMERO_PARTIDO"] == row["NUMERO_CANDIDATO"]:
                 votes = {
                     'year_election': row["ANO_ELEICAO"],
+                    'city_code': row["COD_MUN_IBGE"],
+                    'city': row["NOME_MUNICIPIO"],
                     'name': r["NOME_URNA_CANDIDATO"],
+                    'party': r["SIGLA_PARTIDO"],
                     'coalition': split_party(r["COMPOSICAO_LEGENDA"]),
                     'num_votes': row['QTDE_VOTOS']
                 }

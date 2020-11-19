@@ -21,6 +21,11 @@ def set_position_election(votes_list):
                 for i in list_position:
                     if 'centre-' in i or 'far-' in i:
                         res = i
+                    
+                    else:
+                        for party in party_json:
+                            if party['abbrev'] in row['party']:
+                                res = party['position']
 
             else:
                 res = max(set(list_position), key = list_position.count)
