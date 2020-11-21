@@ -2,38 +2,44 @@ import plotly.graph_objects as go
 from util import get_file_json
 import pandas as pd
 import plotly.express as px
+from collections import Counter
+
+def check_counter_position_repeated(counter_position):
+    rev_dict = {} 
+    for key, value in counter_position.items(): 
+        rev_dict.setdefault(value, set()).add(key) 
+      
+    result = [values for key, values in rev_dict.items() if len(values) > 1]
+    return list(result)
+
 
 def set_position_election(votes_list):
     party_json = get_file_json('data/party.json')
 
     for row in votes_list:
         coalition = row['coalition']
+        coalition.append(row['party'])
         list_position = []
         res = ''
+        position_party_candidate = ''
 
-        for party in party_json:
-            if party['abbrev'] in coalition:
-                list_position.append(party['position'])
+        for i in coalition:
+            for party in party_json:
+                if party['abbrev'] == i:
+                    list_position.append(party['position'])
+                if party['abbrev'] == row['party']:
+                    position_party_candidate = party['position']
 
-        if len(list_position) > 0:
+        counter_position = dict(Counter(list_position))
+        result = check_counter_position_repeated(counter_position)
 
-            if len(list_position) == 2:
-                for i in list_position:
-                    if 'centre-' in i or 'far-' in i:
-                        res = i
-                    
-                    else:
-                        for party in party_json:
-                            if party['abbrev'] in row['party']:
-                                res = party['position']
+        if len(result) > 0:
+            res = position_party_candidate
 
-            else:
-                res = max(set(list_position), key = list_position.count)
-        
         else:
-            res = list_position
+            res = max(counter_position, key= lambda x: counter_position[x]) 
 
-        row.update({'position': res})
+        row.update({'position': res}) 
 
     return votes_list
 
@@ -102,4 +108,4 @@ def plot_map_president_year(year):
                     )
     fig.update_geos(fitbounds="locations", visible=False)
     fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
-    fig.show()
+    fig.write_html('pages/plot_president_state_year_{}.html'.format(year))

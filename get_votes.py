@@ -160,16 +160,17 @@ def get_votes_president_uf(year, uf):
             filters={"NUM_TURNO": 1, "UF": uf},
             political_aggregation="Candidate",
             columns=["ANO_ELEICAO", "NUM_TURNO", "COMPOSICAO_COLIGACAO", "QTDE_VOTOS", "UF"])
-    
     return vot
 
 def get_votes_president_list(vot):
     votes_list = []
     for index, row in vot.iterrows():
+        coalition = split_party(row["COMPOSICAO_COLIGACAO"])
         votes = {
             'year_election': row["ANO_ELEICAO"],
-            'coalition': split_party(row["COMPOSICAO_COLIGACAO"]),
-            'num_votes': row['QTDE_VOTOS']
+            'coalition': coalition,
+            'num_votes': row['QTDE_VOTOS'],
+            'party': coalition[0]
         }
         votes_list.append(votes)
     
@@ -209,3 +210,7 @@ def set_dataframe_president(year):
      
     df = pd.DataFrame(states_json)
     return df
+
+def create_csv_president_state_year(year):
+    df = set_dataframe_president(year)
+    df.to_csv('data/df_president_state_{}.csv'.format(year))
