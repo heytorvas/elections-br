@@ -50,6 +50,6 @@ for line in range(1, len(tr)):
 
 dict_fix = fix_position(dict_party)
 
-with open ('data/party.json', 'w') as f:
+with open ('assets/party.json', 'w') as f:
     f.write(json.dumps(dict_fix))
     f.close()
