@@ -55,16 +55,20 @@ def get_tse_code(uf, name_city):
             return city['codigo_tse']
 
 def split_party(coalition):
-    if '/' in coalition:
-        party_list = coalition.split('/')
-        for party in range(len(party_list)):
-            party_list[party] = party_list[party].strip().replace(' ', '')
+    if isinstance(coalition, float):
+        pass
 
-        return party_list
     else:
-        party_list = []
-        party_list.append(coalition)
-        return party_list
+        if '/' in coalition:
+            party_list = coalition.split('/')
+            for party in range(len(party_list)):
+                party_list[party] = party_list[party].strip().replace(' ', '')
+
+            return party_list
+        else:
+            party_list = []
+            party_list.append(coalition)
+            return party_list
 
 def get_votes_president(year, regional_aggregation):
     vot = get_elections(
@@ -189,9 +193,6 @@ def set_dataframe_president(year):
         vot = get_votes_president_uf(year, i)
         votes_list = get_votes_president_list(vot)
         x = set_position_election(votes_list)
-        
-        # for ij in x:
-        #     print(ij)
 
         count = get_count_position(x)
         print(count)
@@ -210,3 +211,72 @@ def set_dataframe_president(year):
      
     df = pd.DataFrame(states_json)
     df.to_csv('data/df_president_state_{}.csv'.format(year))
+
+def set_state_cities(uf):
+    tse_codes = get_file_json('assets/tse-code-city.json')
+    dict_state = []
+    for city in tse_codes:
+        if city['uf'] == uf:
+            dict_city = {
+                'name': city['nome_municipio'],
+                'uf': city['uf'],
+                'tse_code': city['codigo_tse'],
+                'ibge_code': city['codigo_ibge']
+            }
+            dict_state.append(dict_city)
+    
+    return dict_state
+
+def set_position_from_cities(dict_state, year):
+    list_city = []
+    #for city in range(326, len(dict_state)):
+    for city in dict_state:
+        votes_list = get_mayor_votes_list(year, city['tse_code'])
+        #votes_list = get_mayor_votes_list(year, dict_state[city]['tse_code'])
+
+        votes_count = []
+        for i in votes_list:
+            votes_count.append(int(i['num_votes']))
+        
+        major_vote = largest_votes(votes_count)
+
+        most_votes_candidate = {}
+        for i in votes_list:
+            if int(i['num_votes']) == major_vote:
+                most_votes_candidate = i
+
+        votes_list_position = set_position_election_only(most_votes_candidate)
+        list_city.append(votes_list_position)
+
+        print(votes_list_position)
+    
+    return list_city
+
+def set_dataframe_mayor_state(uf, year):
+    dict_state = set_state_cities(uf)
+    list_city = set_position_from_cities(dict_state, year)
+
+    year_election = []
+    city_code = []
+    city = []
+    num_votes = []
+    position = []
+
+    for i in list_city:
+        year_election.append(i['year_election'])
+        city_code.append(i['city_code'])
+        city.append(i['city'])
+        num_votes.append(i['num_votes'])
+        position.append(i['position'])
+
+    cities_json = { 
+        'Year Election': year_election,
+        'City Code': city_code,
+        'City': city,
+        'Num Votes': num_votes, 
+        'Position': position, 
+    } 
+        
+    df = pd.DataFrame(cities_json)
+    df.to_csv('data/df_mayor_{}_{}.csv'.format(uf, year), index = False)
+    print(df)

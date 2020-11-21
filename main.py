@@ -1,7 +1,11 @@
 from analysis import *
 from build_graph import *
+from get_votes import *
 
-plot_map_president_year(2014)
+# set_dataframe_mayor_state("SP", 2016)
+# plot_mayor_state_year("SP", 2016)
+
+# plot_map_president_year(2014)
 
 # analysis_president(year, regional_aggregation)
 # analysis_mayor(year, uf, city)

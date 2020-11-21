@@ -1,0 +1,638 @@
+Year Election,City Code,City,Num Votes,Position
+2016,3500105,Adamantina,15231,right
+2016,3500204,Adolfo,2171,centre
+2016,3500303,Aguaí,13343,centre
+2016,3500709,Agudos,15380,centre-right
+2016,3500758,Alambari,1959,centre
+2016,3500808,Alfredo Marcondes,1664,centre
+2016,3500907,Altair,1561,right
+2016,3501004,Altinópolis,6324,centre
+2016,3501103,Alto Alegre,2010,centre
+2016,3501152,Alumínio,5662,far-left
+2016,3501509,Alvinlândia,1305,centre
+2016,3501608,Americana,84879,centre
+2016,3501905,Amparo,11549,centre
+2016,3501707,Américo Brasiliense,13638,centre
+2016,3501806,Américo de Campos,2596,far-left
+2016,3502002,Analândia,1968,centre
+2016,3502101,Andradina,14148,unknown
+2016,3502200,Angatuba,9731,centre
+2016,3502309,Anhembi,2785,centre
+2016,3502408,Anhumas,1265,centre
+2016,3502507,Aparecida,7388,centre
+2016,3502606,Aparecida d'Oeste,1757,centre
+2016,3502705,Apiaí,8092,centre
+2016,3503000,Aramina,2050,centre
+2016,3503109,Arandu,2273,right
+2016,3503158,Arapeí,726,centre
+2016,3503208,Araraquara,41220,left
+2016,3503307,Araras,28788,centre
+2016,3502754,Araçariguama,6080,centre
+2016,3502804,Araçatuba,58190,centre
+2016,3502903,Araçoiaba da Serra,4468,centre
+2016,3503356,Arco-Íris,1018,right
+2016,3503406,Arealva,2874,centre
+2016,3503505,Areias,2061,right
+2016,3503604,Areiópolis,3655,right
+2016,3503703,Ariranha,4591,right
+2016,3503802,Artur Nogueira,15872,centre
+2016,3503901,Arujá,16290,centre
+2016,3503950,Aspásia,857,right
+2016,3504008,Assis,18817,left
+2016,3504107,Atibaia,37300,left
+2016,3504206,Auriflama,5162,centre
+2016,3504404,Avanhandava,3367,centre
+2016,3504503,Avaré,19542,right
+2016,3504305,Avaí,1253,centre
+2016,3504602,Bady Bassitt,4979,far-left
+2016,3504701,Balbinos,991,centre
+2016,3504909,Bananal,3205,centre
+2016,3505104,Barbosa,1810,right
+2016,3505203,Bariri,6891,centre
+2016,3505302,Barra Bonita,12001,centre
+2016,3505351,Barra do Chapéu,1444,left
+2016,3505401,Barra do Turvo,2385,centre
+2016,3505500,Barretos,26681,centre
+2016,3505609,Barrinha,13056,far-left
+2016,3505708,Barueri,143250,centre
+2016,3505005,Barão de Antonina,1165,centre
+2016,3505807,Bastos,4461,centre
+2016,3505906,Batatais,14298,centre
+2016,3506003,Bauru,184100,centre
+2016,3506102,Bebedouro,24667,right
+2016,3506201,Bento de Abreu,1095,centre
+2016,3506300,Bernardino de Campos,3412,far-left
+2016,3506359,Bertioga,18584,centre
+2016,3506409,Bilac,3029,centre
+2016,3506508,Birigui,28507,right
+2016,3506607,Biritiba-Mirim,9821,right
+2016,3506706,Boa Esperança do Sul,3925,centre
+2016,3506805,Bocaina,5465,far-left
+2016,3506904,Bofete,3297,right
+2016,3507001,Boituva,12684,centre
+2016,3507100,Bom Jesus dos Perdões,4161,centre
+2016,3507159,Bom Sucesso de Itararé,1231,centre
+2016,3507308,Boracéia,2044,centre
+2016,3507407,Borborema,3833,right
+2016,3507456,Borebi,1187,centre
+2016,3507209,Borá,572,centre-right
+2016,3507506,Botucatu,39045,centre
+2016,3507605,Bragança Paulista,60822,right
+2016,3507704,Braúna,2077,right
+2016,3507753,Brejo Alegre,1643,centre
+2016,3507803,Brodowski,6738,centre
+2016,3507902,Brotas,5979,right
+2016,3508009,Buri,5949,right
+2016,3508108,Buritama,5796,right
+2016,3508207,Buritizal,1752,centre
+2016,3504800,Bálsamo,3255,centre
+2016,3508405,Cabreúva,20908,left
+2016,3508306,Cabrália Paulista,1325,right
+2016,3508603,Cachoeira Paulista,7670,right
+2016,3508702,Caconde,5229,right
+2016,3508801,Cafelândia,5222,centre
+2016,3508900,Caiabu,1580,centre
+2016,3509007,Caieiras,16331,centre
+2016,3509106,Caiuá,1686,right
+2016,3509205,Cajamar,27874,left
+2016,3509254,Cajati,7078,left
+2016,3509304,Cajobi,3624,centre
+2016,3509403,Cajuru,8596,left
+2016,3509452,Campina do Monte Alegre,1536,left
+2016,3509502,Campinas,323308,left
+2016,3509601,Campo Limpo Paulista,12658,centre
+2016,3509700,Campos do Jordão,12927,centre
+2016,3509809,Campos Novos Paulista,1630,centre
+2016,3509908,Cananéia,4133,centre
+2016,3509957,Canas,1622,centre
+2016,3510153,Canitar,1556,right
+2016,3510302,Capela do Alto,4806,far-left
+2016,3510401,Capivari,13829,centre
+2016,3510203,Capão Bonito,8622,right
+2016,3510500,Caraguatatuba,25138,centre
+2016,3510609,Carapicuíba,102287,centre
+2016,3510708,Cardoso,3633,centre
+2016,3510807,Casa Branca,5853,right
+2016,3511003,Castilho,6710,right
+2016,3511102,Catanduva,34403,left
+2016,3511201,Catiguá,2473,far-left
+2016,3508504,Caçapava,13411,centre
+2016,3511300,Cedral,3818,far-left
+2016,3511409,Cerqueira César,5604,centre-right
+2016,3511508,Cerquilho,17953,centre
+2016,3511607,Cesário Lange,6048,centre
+2016,3511706,Charqueada,6188,centre
+2016,3557204,Chavantes,4405,centre
+2016,3511904,Clementina,2373,right
+2016,3512001,Colina,7187,centre
+2016,3512100,Colômbia,2765,right
+2016,3512209,Conchal,8600,centre
+2016,3512308,Conchas,5460,left
+2016,3512407,Cordeirópolis,6929,centre
+2016,3512506,Coroados,1783,right
+2016,3512605,Coronel Macedo,1970,centre
+2016,3512704,Corumbataí,1124,right
+2016,3512902,Cosmorama,2714,far-left
+2016,3512803,Cosmópolis,11389,left
+2016,3513009,Cotia,39933,right
+2016,3513108,Cravinhos,11769,centre
+2016,3513207,Cristais Paulista,2604,centre
+2016,3513405,Cruzeiro,17211,centre
+2016,3513306,Cruzália,1001,centre
+2016,3513504,Cubatão,28455,centre
+2016,3513603,Cunha,8406,left
+2016,3510906,Cássia dos Coqueiros,1520,centre
+2016,3510005,Cândido Mota,12539,centre-right
+2016,3510104,Cândido Rodrigues,1351,left
+2016,3513702,Descalvado,8238,right
+2016,3513801,Diadema,207357,centre
+2016,3513850,Dirce Reis,788,right
+2016,3513900,Divinolândia,4337,centre
+2016,3514007,Dobrada,1948,right
+2016,3514106,Dois Córregos,8516,right
+2016,3514205,Dolcinópolis,1393,centre
+2016,3514304,Dourado,3439,left
+2016,3514403,Dracena,14207,right
+2016,3514502,Duartina,4053,far-left
+2016,3514601,Dumont,2879,right
+2016,3514700,Echaporã,1684,centre
+2016,3514809,Eldorado,4581,right
+2016,3514908,Elias Fausto,5653,centre
+2016,3514924,Elisiário,1298,right
+2016,3514957,Embaúba,820,centre-right
+2016,3515004,Embu das Artes,64828,right
+2016,3515103,Embu-Guaçu,12494,left
+2016,3515129,Emilianópolis,1367,right
+2016,3515152,Engenheiro Coelho,4998,centre
+2016,3515186,Espírito Santo do Pinhal,12436,centre
+2016,3515194,Espírito Santo do Turvo,1775,centre
+2016,3557303,Estiva Gerbi,3882,centre
+2016,3515202,Estrela d'Oeste,3010,centre-right
+2016,3515301,Estrela do Norte,1464,centre
+2016,3515350,Euclides da Cunha Paulista,2371,centre
+2016,3515400,Fartura,4403,centre
+2016,3515608,Fernando Prestes,2256,centre
+2016,3515509,Fernandópolis,15980,right
+2016,3515657,Fernão,812,right
+2016,3515707,Ferraz de Vasconcelos,29597,centre-right
+2016,3515806,Flora Rica,1249,centre
+2016,3515905,Floreal,1502,centre
+2016,3516101,Florínia,1398,centre
+2016,3516002,Flórida Paulista,3925,right
+2016,3516200,Franca,140307,centre
+2016,3516309,Francisco Morato,23515,centre-right
+2016,3516408,Franco da Rocha,46652,left
+2016,3516507,Gabriel Monteiro,945,centre
+2016,3516705,Garça,10497,right
+2016,3516804,Gastão Vidigal,1358,left
+2016,3516853,Gavião Peixoto,1654,centre-right
+2016,3516903,General Salgado,2874,right
+2016,3517000,Getulina,3516,centre
+2016,3517109,Glicério,2216,centre
+2016,3517307,Guaimbê,1701,centre
+2016,3517208,Guaiçara,5645,right
+2016,3517604,Guapiara,5465,right
+2016,3517505,Guapiaçu,5161,centre
+2016,3517901,Guaraci,3382,centre
+2016,3518008,Guarani d'Oeste,817,right
+2016,3518107,Guarantã,2750,centre
+2016,3518206,Guararapes,11059,right
+2016,3518305,Guararema,13614,right
+2016,3518404,Guaratinguetá,26422,left
+2016,3517802,Guaraçaí,2553,far-left
+2016,3518503,Guareí,4064,centre
+2016,3518602,Guariba,9735,left
+2016,3518701,Guarujá,143203,far-left
+2016,3518800,Guarulhos,690132,left
+2016,3517703,Guará,6393,centre
+2016,3518859,Guatapará,1856,right
+2016,3517406,Guaíra,13640,centre
+2016,3518909,Guzolândia,1568,centre
+2016,3516606,Gália,2313,centre
+2016,3519006,Herculândia,3462,centre
+2016,3519055,Holambra,6439,right
+2016,3519071,Hortolândia,58291,right
+2016,3519105,Iacanga,3213,left
+2016,3519204,Iacri,3193,centre
+2016,3519253,Iaras,1579,right
+2016,3519303,Ibaté,12693,centre
+2016,3519501,Ibirarema,2568,centre
+2016,3519402,Ibirá,4313,right
+2016,3519600,Ibitinga,17125,left
+2016,3519709,Ibiúna,11463,centre
+2016,3519808,Icém,2004,right
+2016,3519907,Iepê,2678,centre
+2016,3520103,Igarapava,6963,centre
+2016,3520202,Igaratá,3594,centre
+2016,3520004,Igaraçu do Tietê,7952,centre
+2016,3520301,Iguape,5174,centre
+2016,3520426,Ilha Comprida,5135,centre
+2016,3520442,Ilha Solteira,7117,right
+2016,3520400,Ilhabela,7917,centre
+2016,3520509,Indaiatuba,53344,centre
+2016,3520608,Indiana,1688,centre
+2016,3520707,Indiaporã,1610,centre
+2016,3520806,Inúbia Paulista,1497,centre
+2016,3520905,Ipaussu,5676,right
+2016,3521002,Iperó,9215,left
+2016,3521101,Ipeúna,1617,centre
+2016,3521150,Ipiguá,2003,centre
+2016,3521200,Iporanga,1769,centre
+2016,3521309,Ipuã,5439,centre
+2016,3521408,Iracemápolis,6608,centre
+2016,3521606,Irapuru,2366,centre
+2016,3521507,Irapuã,2914,left
+2016,3521705,Itaberá,5869,centre
+2016,3521903,Itajobi,5266,centre
+2016,3522000,Itaju,1705,right
+2016,3522109,Itanhaém,35515,centre
+2016,3522158,Itaóca,2029,right
+2016,3522208,Itapecerica da Serra,34031,right
+2016,3522307,Itapetininga,40360,centre
+2016,3522406,Itapeva,34011,centre
+2016,3522505,Itapevi,68942,right
+2016,3522604,Itapira,17269,centre
+2016,3522653,Itapirapuã Paulista,1555,left
+2016,3522802,Itaporanga,3756,right
+2016,3523008,Itapura,1661,right
+2016,3522901,Itapuí,3288,right
+2016,3523107,Itaquaquecetuba,103098,centre
+2016,3523206,Itararé,9505,centre
+2016,3523305,Itariri,4042,right
+2016,3523404,Itatiba,22010,right
+2016,3523503,Itatinga,4583,centre
+2016,3521804,Itaí,3558,centre
+2016,3523602,Itirapina,3539,centre
+2016,3523701,Itirapuã,2123,right
+2016,3523800,Itobi,2257,centre
+2016,3523909,Itu,22582,right
+2016,3524006,Itupeva,13401,centre
+2016,3524105,Ituverava,10911,centre
+2016,3522703,Itápolis,8885,right
+2016,3524204,Jaborandi,2659,centre
+2016,3524303,Jaboticabal,12923,right
+2016,3524402,Jacareí,47286,centre
+2016,3524501,Jaci,3257,right
+2016,3524600,Jacupiranga,3294,right
+2016,3524709,Jaguariúna,13586,centre
+2016,3524808,Jales,19287,right
+2016,3524907,Jambeiro,2267,centre
+2016,3525003,Jandira,25637,right
+2016,3525102,Jardinópolis,7156,centre
+2016,3525201,Jarinu,5373,right
+2016,3525300,Jaú,34289,left
+2016,3525409,Jeriquara,1317,centre
+2016,3525508,Joanópolis,4081,right
+2016,3525706,José Bonifácio,8711,centre
+2016,3525607,João Ramalho,1707,centre
+2016,3525854,Jumirim,1168,centre
+2016,3525904,Jundiaí,210407,centre
+2016,3526001,Junqueirópolis,7435,centre
+2016,3526209,Juquitiba,7678,right
+2016,3526100,Juquiá,6302,centre
+2016,3525805,Júlio Mesquita,2297,left
+2016,3526308,Lagoinha,1830,centre
+2016,3526407,Laranjal Paulista,9032,centre
+2016,3526605,Lavrinhas,2509,right
+2016,3526506,Lavínia,2218,centre
+2016,3526704,Leme,37485,centre
+2016,3526803,Lençóis Paulista,16554,centre-left
+2016,3526902,Limeira,71827,centre
+2016,3527009,Lindóia,1958,left
+2016,3527108,Lins,17491,centre
+2016,3527207,Lorena,22981,centre
+2016,3527256,Lourdes,883,right
+2016,3527306,Louveira,12372,right
+2016,3527504,Lucianópolis,1292,right
+2016,3527405,Lucélia,3299,left
+2016,3527702,Luiziânia,1890,centre
+2016,3527801,Lupércio,1590,centre
+2016,3527900,Lutécia,1161,centre-right
+2016,3527603,Luís Antônio,3485,right
+2016,3528007,Macatuba,7537,right
+2016,3528106,Macaubal,2199,centre
+2016,3528205,Macedônia,1780,right
+2016,3528304,Magda,1320,centre
+2016,3528403,Mairinque,9200,right
+2016,3528502,Mairiporã,23817,centre
+2016,3528601,Manduri,3040,centre
+2016,3528700,Marabá Paulista,1325,left
+2016,3528809,Maracaí,4761,centre
+2016,3528858,Marapoama,1492,centre
+2016,3529104,Marinópolis,891,centre
+2016,3528908,Mariápolis,1438,right
+2016,3529203,Martinópolis,7300,centre
+2016,3529005,Marília,50113,centre
+2016,3529302,Matão,37596,left
+2016,3529401,Mauá,198403,left
+2016,3529500,Mendonça,2086,centre
+2016,3529609,Meridiano,1658,centre
+2016,3529658,Mesópolis,984,centre
+2016,3529708,Miguelópolis,7406,centre
+2016,3529807,Mineiros do Tietê,2473,centre
+2016,3530003,Mira Estrela,1811,centre
+2016,3529906,Miracatu,5090,centre
+2016,3530102,Mirandópolis,5563,centre
+2016,3530201,Mirante do Paranapanema,5534,centre-right
+2016,3530300,Mirassol,9072,right
+2016,3530409,Mirassolândia,1789,right
+2016,3530508,Mococa,19412,centre
+2016,3530607,Mogi das Cruzes,129763,centre
+2016,3530706,Mogi Guaçu,45363,right
+2016,3530805,Mogi Mirim,16423,centre
+2016,3530904,Mombuca,1381,centre
+2016,3531100,Mongaguá,11071,centre
+2016,3531209,Monte Alegre do Sul,2604,right
+2016,3531308,Monte Alto,15711,left
+2016,3531407,Monte Aprazível,5391,centre
+2016,3531506,Monte Azul Paulista,5078,centre
+2016,3531605,Monte Castelo,1115,centre
+2016,3531803,Monte Mor,17992,centre
+2016,3531704,Monteiro Lobato,1068,centre
+2016,3531001,Monções,1470,centre
+2016,3531902,Morro Agudo,9576,left
+2016,3532009,Morungaba,4567,centre
+2016,3532058,Motuca,1682,left
+2016,3532108,Murutinga do Sul,1628,centre
+2016,3532157,Nantes,1172,left
+2016,3532207,Narandiba,2001,centre
+2016,3532306,Natividade da Serra,3153,far-left
+2016,3532405,Nazaré Paulista,5418,centre
+2016,3532504,Neves Paulista,2326,centre
+2016,3532603,Nhandeara,3109,centre
+2016,3532702,Nipoã,1816,centre
+2016,3532801,Nova Aliança,2728,right
+2016,3532827,Nova Campina,2659,right
+2016,3532843,Nova Canaã Paulista,1471,centre
+2016,3532868,Nova Castilho,676,centre
+2016,3532900,Nova Europa,2440,right
+2016,3533007,Nova Granada,9059,left
+2016,3533106,Nova Guataporanga,903,centre
+2016,3533205,Nova Independência,1587,centre
+2016,3533304,Nova Luzitânia,1460,centre
+2016,3533403,Nova Odessa,16526,centre
+2016,3533254,Novais,1553,centre-right
+2016,3533502,Novo Horizonte,11237,far-left
+2016,3533601,Nuporanga,2899,centre
+2016,3533700,Ocauçu,1689,centre
+2016,3533908,Olímpia,16017,right
+2016,3534005,Onda Verde,1848,centre-right
+2016,3534104,Oriente,3531,centre
+2016,3534203,Orindiúva,3291,centre
+2016,3534302,Orlândia,9819,centre
+2016,3534401,Osasco,328484,right
+2016,3534500,Oscar Bressane,1334,centre
+2016,3534609,Osvaldo Cruz,9345,centre
+2016,3534708,Ourinhos,34247,centre
+2016,3534807,Ouro Verde,3150,centre
+2016,3534757,Ouroeste,4036,left
+2016,3534906,Pacaembu,3776,centre
+2016,3535002,Palestina,3442,right
+2016,3535101,Palmares Paulista,5248,right
+2016,3535200,Palmeira d'Oeste,3126,right
+2016,3535309,Palmital,7012,centre
+2016,3535408,Panorama,4040,far-left
+2016,3535507,Paraguaçu Paulista,10867,centre
+2016,3535606,Paraibuna,5373,centre
+2016,3535804,Paranapanema,5973,centre
+2016,3535903,Paranapuã,1381,centre
+2016,3536000,Parapuã,3231,right
+2016,3535705,Paraíso,2015,centre
+2016,3536109,Pardinho,2128,centre
+2016,3536208,Pariquera-Açu,5987,right
+2016,3536257,Parisi,1197,centre
+2016,3536307,Patrocínio Paulista,6083,centre
+2016,3536406,Paulicéia,2559,far-left
+2016,3536570,Paulistânia,1252,centre
+2016,3536604,Paulo de Faria,2655,centre
+2016,3536505,Paulínia,17798,right
+2016,3536703,Pederneiras,11522,centre
+2016,3536802,Pedra Bela,2472,centre
+2016,3536901,Pedranópolis,1038,right
+2016,3537008,Pedregulho,6104,centre
+2016,3537107,Pedreira,15729,left
+2016,3537156,Pedrinhas Paulista,1424,right
+2016,3537206,Pedro de Toledo,1501,right
+2016,3537305,Penápolis,17145,centre
+2016,3537404,Pereira Barreto,5846,right
+2016,3537503,Pereiras,2733,left
+2016,3537602,Peruíbe,8020,centre
+2016,3537701,Piacatu,2818,right
+2016,3537800,Piedade,7589,centre
+2016,3537909,Pilar do Sul,8553,right
+2016,3538006,Pindamonhangaba,34589,right
+2016,3538105,Pindorama,3322,centre
+2016,3538204,Pinhalzinho,4880,right
+2016,3538303,Piquerobi,1376,centre
+2016,3538501,Piquete,3263,left
+2016,3538600,Piracaia,5594,left
+2016,3538709,Piracicaba,132161,centre
+2016,3538808,Piraju,5285,far-left
+2016,3538907,Pirajuí,5607,right
+2016,3539004,Pirangi,3230,centre
+2016,3539103,Pirapora do Bom Jesus,4973,right
+2016,3539202,Pirapozinho,6507,right
+2016,3539301,Pirassununga,21024,centre
+2016,3539400,Piratininga,5487,centre
+2016,3539509,Pitangueiras,9508,far-left
+2016,3539608,Planalto,1824,centre
+2016,3539707,Platina,1593,centre
+2016,3539905,Poloni,2039,far-left
+2016,3540002,Pompéia,7605,right
+2016,3540101,Pongaí,1674,far-left
+2016,3540200,Pontal,10774,left
+2016,3540259,Pontalinda,1532,right
+2016,3540309,Pontes Gestal,1059,centre
+2016,3540408,Populina,1740,far-left
+2016,3540507,Porangaba,2397,right
+2016,3540606,Porto Feliz,12084,right
+2016,3540705,Porto Ferreira,11270,centre
+2016,3540754,Potim,4836,right
+2016,3540804,Potirendaba,5421,centre
+2016,3539806,Poá,34203,right
+2016,3540853,Pracinha,747,centre
+2016,3540903,Pradópolis,4077,right
+2016,3541000,Praia Grande,102073,centre
+2016,3541059,Pratânia,2490,far-left
+2016,3541109,Presidente Alves,1812,centre-right
+2016,3541208,Presidente Bernardes,3932,right
+2016,3541307,Presidente Epitácio,9330,centre-right
+2016,3541406,Presidente Prudente,33209,right
+2016,3541505,Presidente Venceslau,14914,centre
+2016,3541604,Promissão,10238,centre
+2016,3541653,Quadra,1492,centre
+2016,3541703,Quatá,5987,centre
+2016,3541802,Queiroz,1896,centre
+2016,3541901,Queluz,4057,centre
+2016,3542008,Quintana,2894,centre
+2016,3542107,Rafard,3038,centre
+2016,3542206,Rancharia,8991,centre
+2016,3542305,Redenção da Serra,1659,right
+2016,3542404,Regente Feijó,6630,centre
+2016,3542503,Reginópolis,1566,centre
+2016,3542602,Registro,17369,centre
+2016,3542701,Restinga,2819,centre
+2016,3542800,Ribeira,1477,centre
+2016,3542909,Ribeirão Bonito,3132,centre
+2016,3543006,Ribeirão Branco,5247,right
+2016,3543105,Ribeirão Corrente,1882,centre
+2016,3543204,Ribeirão do Sul,1797,far-left
+2016,3543238,Ribeirão dos Índios,1125,centre
+2016,3543253,Ribeirão Grande,3752,centre
+2016,3543303,Ribeirão Pires,17703,left
+2016,3543402,Ribeirão Preto,248167,centre
+2016,3543600,Rifaina,2350,far-left
+2016,3543709,Rincão,1978,centre
+2016,3543808,Rinópolis,3695,centre
+2016,3543907,Rio Claro,50892,right
+2016,3544004,Rio das Pedras,13517,centre
+2016,3544103,Rio Grande da Serra,11080,centre
+2016,3544202,Riolândia,2837,right
+2016,3543501,Riversul,1366,left
+2016,3544251,Rosana,4235,centre
+2016,3544301,Roseira,3379,centre
+2016,3544509,Rubinéia,1563,centre
+2016,3544400,Rubiácea,1173,centre
+2016,3544608,Sabino,2792,centre-right
+2016,3544707,Sagres,945,centre
+2016,3544806,Sales,1822,right
+2016,3544905,Sales Oliveira,3746,centre
+2016,3545001,Salesópolis,3459,right
+2016,3545100,Salmourão,1826,centre
+2016,3545159,Saltinho,2332,centre
+2016,3545209,Salto,30782,right
+2016,3545308,Salto de Pirapora,9592,left
+2016,3545407,Salto Grande,2927,centre
+2016,3545506,Sandovalina,1511,right
+2016,3545605,Santa Adélia,4727,right
+2016,3545704,Santa Albertina,2172,centre
+2016,3546009,Santa Branca,3473,centre
+2016,3545803,Santa Bárbara d'Oeste,52322,right
+2016,3546108,Santa Clara d'Oeste,972,centre
+2016,3546207,Santa Cruz da Conceição,1510,centre
+2016,3546256,Santa Cruz da Esperança,1329,centre
+2016,3546306,Santa Cruz das Palmeiras,6563,right
+2016,3546405,Santa Cruz do Rio Pardo,19104,left
+2016,3546504,Santa Ernestina,2597,far-left
+2016,3546603,Santa Fé do Sul,9985,right
+2016,3546702,Santa Gertrudes,7810,right
+2016,3546801,Santa Isabel,15541,right
+2016,3546900,Santa Lúcia,4436,right
+2016,3547007,Santa Maria da Serra,2378,centre
+2016,3547106,Santa Mercedes,874,centre
+2016,3547403,Santa Rita d'Oeste,876,left
+2016,3547502,Santa Rita do Passa Quatro,8003,centre
+2016,3547601,Santa Rosa de Viterbo,7776,right
+2016,3547650,Santa Salete,1083,centre
+2016,3547205,Santana da Ponte Pensa,810,centre
+2016,3547304,Santana de Parnaíba,38185,centre
+2016,3547700,Santo Anastácio,6275,centre
+2016,3547809,Santo André,396115,centre
+2016,3547908,Santo Antônio da Alegria,3102,centre
+2016,3548005,Santo Antônio de Posse,6493,centre
+2016,3548054,Santo Antônio do Aracanguá,2968,right
+2016,3548104,Santo Antônio do Jardim,2074,centre
+2016,3548203,Santo Antônio do Pinhal,2708,centre
+2016,3548302,Santo Expedito,1245,centre
+2016,3548500,Santos,172215,centre
+2016,3548401,Santópolis do Aguapeí,2343,centre
+2016,3551108,Sarapuí,3138,centre
+2016,3551207,Sarutaiá,1469,right
+2016,3551306,Sebastianópolis do Sul,1536,right
+2016,3551405,Serra Azul,3431,centre
+2016,3551603,Serra Negra,7089,right
+2016,3551504,Serrana,13186,centre
+2016,3551702,Sertãozinho,35256,centre
+2016,3551801,Sete Barras,4032,centre
+2016,3551900,Severínia,4220,right
+2016,3552007,Silveiras,2891,centre
+2016,3552106,Socorro,14279,right
+2016,3552205,Sorocaba,316600,right
+2016,3552304,Sud Mennucci,2712,centre
+2016,3552403,Sumaré,50624,far-left
+2016,3552502,Suzano,126895,right
+2016,3552551,Suzanápolis,1562,centre
+2016,3548609,São Bento do Sapucaí,3386,centre
+2016,3548708,São Bernardo do Campo,382971,centre
+2016,3548807,São Caetano do Sul,32067,centre
+2016,3548906,São Carlos,48951,left
+2016,3549003,São Francisco,1204,centre
+2016,3549409,São Joaquim da Barra,14819,far-left
+2016,3549508,São José da Bela Vista,3019,centre
+2016,3549607,São José do Barreiro,1556,centre
+2016,3549706,São José do Rio Pardo,11146,left
+2016,3549805,São José do Rio Preto,113377,centre
+2016,3549904,São José dos Campos,219511,centre
+2016,3549102,São João da Boa Vista,21912,centre
+2016,3549201,São João das Duas Pontes,1352,right
+2016,3549250,São João de Iracema,923,right
+2016,3549300,São João do Pau d'Alho,1088,centre
+2016,3549953,São Lourenço da Serra,4513,centre
+2016,3550001,São Luís do Paraitinga,4580,centre
+2016,3550100,São Manuel,15223,far-left
+2016,3550209,São Miguel Arcanjo,8183,centre
+2016,3550308,São Paulo,3085187,centre
+2016,3550407,São Pedro,13974,centre
+2016,3550506,São Pedro do Turvo,2842,right
+2016,3550605,São Roque,23907,centre
+2016,3550704,São Sebastião,19924,centre
+2016,3550803,São Sebastião da Grama,3504,far-left
+2016,3550902,São Simão,4770,right
+2016,3551009,São Vicente,87365,centre
+2016,3552601,Tabapuã,5029,right
+2016,3552700,Tabatinga,3945,right
+2016,3552809,Taboão da Serra,67643,centre
+2016,3552908,Taciba,2619,centre
+2016,3553005,Taguaí,5595,right
+2016,3553104,Taiaçu,1982,centre
+2016,3553203,Taiúva,2255,centre
+2016,3553302,Tambaú,9023,centre
+2016,3553401,Tanabi,6803,left
+2016,3553609,Tapiratiba,4581,far-left
+2016,3553500,Tapiraí,2196,centre
+2016,3553658,Taquaral,802,right
+2016,3553708,Taquaritinga,9754,centre
+2016,3553807,Taquarituba,7434,centre
+2016,3553856,Taquarivaí,2000,centre
+2016,3553906,Tarabai,3335,centre
+2016,3553955,Tarumã,4895,centre
+2016,3554003,Tatuí,29465,centre
+2016,3554102,Taubaté,74589,centre
+2016,3554201,Tejupá,1894,right
+2016,3554300,Teodoro Sampaio,7726,left
+2016,3554409,Terra Roxa,3277,centre
+2016,3554508,Tietê,9785,centre
+2016,3554607,Timburi,1275,centre
+2016,3554656,Torre de Pedra,1186,right
+2016,3554706,Torrinha,3144,centre
+2016,3554755,Trabiju,870,centre
+2016,3554805,Tremembé,9298,right
+2016,3554904,Três Fronteiras,2398,centre
+2016,3554953,Tuiuti,2040,right
+2016,3555109,Tupi Paulista,7225,right
+2016,3555000,Tupã,13622,centre
+2016,3555208,Turiúba,849,centre
+2016,3555307,Turmalina,920,centre
+2016,3555356,Ubarana,2177,right
+2016,3555406,Ubatuba,14243,centre
+2016,3555505,Ubirajara,1972,centre
+2016,3555604,Uchoa,3378,centre
+2016,3555703,União Paulista,702,left
+2016,3555901,Uru,666,centre
+2016,3556008,Urupês,6521,right
+2016,3555802,Urânia,2702,right
+2016,3556107,Valentim Gentil,5116,centre
+2016,3556206,Valinhos,22735,centre
+2016,3556305,Valparaíso,6699,centre
+2016,3556354,Vargem,2805,centre
+2016,3556404,Vargem Grande do Sul,19372,centre
+2016,3556453,Vargem Grande Paulista,10353,right
+2016,3556602,Vera Cruz,2799,centre
+2016,3556701,Vinhedo,11638,centre
+2016,3556800,Viradouro,4206,right
+2016,3556909,Vista Alegre do Alto,1833,right
+2016,3556958,Vitória Brasil,736,centre
+2016,3557006,Votorantim,32468,right
+2016,3557105,Votuporanga,31104,right
+2016,3556503,Várzea Paulista,28803,centre
+2016,3557154,Zacarias,1222,left

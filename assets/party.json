@@ -262,5 +262,11 @@
         "abbrev": "PRP",
         "number": "44",
         "position": "centre-right"
+    },
+    {
+        "name": "Partido Popular Socialista",
+        "abbrev": "PPS",
+        "number": "23",
+        "position": "far-left"
     }
 ]

@@ -35,14 +35,14 @@ Year Election,City Code,City,Num Votes,Position
 2016,1703909,Caseara,1654,right
 2016,1704105,Centenário,986,right
 2016,1705102,Chapada da Natividade,1179,right
-2016,1704600,Chapada de Areia,973,
+2016,1704600,Chapada de Areia,973,far-left
 2016,1705508,Colinas do Tocantins,11407,centre-right
 2016,1716703,Colméia,2601,centre
 2016,1705557,Combinado,1638,centre
 2016,1705607,Conceição do Tocantins,1745,centre
 2016,1706001,Couto Magalhães,1811,left
 2016,1706100,Cristalândia,2431,left
-2016,1706258,Crixás do Tocantins,830,unknown
+2016,1706258,Crixás do Tocantins,830,far-left
 2016,1706506,Darcinópolis,2324,right
 2016,1707009,Dianópolis,6583,left
 2016,1707108,Divinópolis do Tocantins,2563,centre
@@ -97,7 +97,7 @@ Year Election,City Code,City,Num Votes,Position
 2016,1716505,Pedro Afonso,3105,left
 2016,1716604,Peixe,1714,right
 2016,1716653,Pequizeiro,1925,centre
-2016,1717008,Pindorama do Tocantins,1538,right
+2016,1717008,Pindorama do Tocantins,1538,centre
 2016,1717206,Piraquê,956,centre
 2016,1717503,Pium,1842,centre
 2016,1717800,Ponte Alta do Bom Jesus,1442,centre
@@ -106,7 +106,7 @@ Year Election,City Code,City,Num Votes,Position
 2016,1718204,Porto Nacional,16988,centre
 2016,1718303,Praia Norte,3126,centre
 2016,1718402,Presidente Kennedy,945,centre
-2016,1718451,Pugmil,929,unknown
+2016,1718451,Pugmil,929,far-left
 2016,1718501,Recursolândia,1480,centre
 2016,1718550,Riachinho,1587,right
 2016,1718659,Rio da Conceição,873,centre
@@ -115,7 +115,7 @@ Year Election,City Code,City,Num Votes,Position
 2016,1718808,Sampaio,1309,right
 2016,1718840,Sandolândia,1513,right
 2016,1718865,Santa Fé do Araguaia,2977,right
-2016,1718881,Santa Maria do Tocantins,1312,right
+2016,1718881,Santa Maria do Tocantins,1312,centre
 2016,1718899,Santa Rita do Tocantins,885,centre
 2016,1718907,Santa Rosa do Tocantins,1609,right
 2016,1719004,Santa Tereza do Tocantins,1091,centre
