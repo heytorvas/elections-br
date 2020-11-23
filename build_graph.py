@@ -125,7 +125,7 @@ def show_plot(count):
     values = [j for j in count.values()]
 
     fig = go.Figure(data=[go.Pie(labels=labels, values=values, hole=.3)])
-    fig.show()
+    fig.write_html('pages/plot_especific.html')
 
 def set_color(position):
     if(position == 'far-left'):

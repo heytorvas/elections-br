@@ -2,6 +2,7 @@ from electionsBR import *
 from build_graph import *
 import pandas as pd
 from util import get_file_json
+from time import sleep
 
 '''
 
@@ -71,13 +72,26 @@ def split_party(coalition):
             return party_list
 
 def get_votes_president(year, regional_aggregation):
-    vot = get_elections(
-        year= year, 
-        position= 'President',
-        regional_aggregation= regional_aggregation, 
-        filters={"NUM_TURNO": 1},
-        political_aggregation="Coalition",
-        columns=["ANO_ELEICAO", "COMPOSICAO_COLIGACAO", "QTDE_VOTOS"])
+    try:
+        vot = get_elections(
+            year= year, 
+            position= 'President',
+            regional_aggregation= regional_aggregation, 
+            filters={"NUM_TURNO": 1},
+            political_aggregation="Coalition",
+            columns=["ANO_ELEICAO", "COMPOSICAO_COLIGACAO", "QTDE_VOTOS"]
+        )
+    except:
+        sleep(60)
+        print('error on API')
+        vot = get_elections(
+            year= year, 
+            position= 'President',
+            regional_aggregation= regional_aggregation, 
+            filters={"NUM_TURNO": 1},
+            political_aggregation="Coalition",
+            columns=["ANO_ELEICAO", "COMPOSICAO_COLIGACAO", "QTDE_VOTOS"]
+        )
     
     return vot
 
@@ -95,20 +109,41 @@ def get_president_votes_list(year, regional_aggregation):
     return votes_list
 
 def get_votes_mayor(year, code):
-    vot = get_votes(year=year,
-        position="Mayor",
-        filters={"COD_MUN_TSE": code},
-        columns=["ANO_ELEICAO", "COD_MUN_TSE", "COD_MUN_IBGE",
-                "NOME_MUNICIPIO", "NUMERO_CANDIDATO", "QTDE_VOTOS"]
-    )
+    try:
+        vot = get_votes(year=year,
+            position="Mayor",
+            filters={"COD_MUN_TSE": code},
+            columns=["ANO_ELEICAO", "COD_MUN_TSE", "COD_MUN_IBGE",
+                    "NOME_MUNICIPIO", "NUMERO_CANDIDATO", "QTDE_VOTOS"]
+        )
+    except:
+        print('error on API')
+        sleep(60)
+        vot = get_votes(year=year,
+            position="Mayor",
+            filters={"COD_MUN_TSE": code},
+            columns=["ANO_ELEICAO", "COD_MUN_TSE", "COD_MUN_IBGE",
+                    "NOME_MUNICIPIO", "NUMERO_CANDIDATO", "QTDE_VOTOS"]
+        )
     return vot
 
 def get_candidates_mayor(year, label_ue = ''):
-    vot = get_candidates(
-        year=year, 
-        position="Mayor",
-        filters={"NUM_TURNO": 1, "SIGLA_UE": label_ue},
-        columns=["ANO_ELEICAO", "NOME_URNA_CANDIDATO", "SIGLA_UE", "NUMERO_PARTIDO", "SIGLA_PARTIDO", "COMPOSICAO_LEGENDA"])
+    try:
+        vot = get_candidates(
+            year=year, 
+            position="Mayor",
+            filters={"NUM_TURNO": 1, "SIGLA_UE": label_ue},
+            columns=["ANO_ELEICAO", "NOME_URNA_CANDIDATO", "SIGLA_UE", "NUMERO_PARTIDO", "SIGLA_PARTIDO", "COMPOSICAO_LEGENDA"]
+        )
+    except:
+        print('error on API')
+        sleep(60)
+        vot = get_candidates(
+            year=year, 
+            position="Mayor",
+            filters={"NUM_TURNO": 1, "SIGLA_UE": label_ue},
+            columns=["ANO_ELEICAO", "NOME_URNA_CANDIDATO", "SIGLA_UE", "NUMERO_PARTIDO", "SIGLA_PARTIDO", "COMPOSICAO_LEGENDA"]
+        )
 
     return vot
 
@@ -119,17 +154,37 @@ def get_mayor_votes_list(year, code):
     return politics_votes_list(votes_mayor, candidates_mayor)
 
 def get_votes_governor(year, uf):
-    vot = get_votes(year=year,
+    try:
+        vot = get_votes(year=year,
+                position="Governor",
+                filters={"UF": uf, "NUM_TURNO": 1},
+                columns=["ANO_ELEICAO", "UF", "NUM_TURNO", "NUMERO_CANDIDATO", "QTDE_VOTOS"]
+        )
+    except:
+        print('error on API')
+        sleep(60)
+        vot = get_votes(year=year,
             position="Governor",
             filters={"UF": uf, "NUM_TURNO": 1},
             columns=["ANO_ELEICAO", "UF", "NUM_TURNO", "NUMERO_CANDIDATO", "QTDE_VOTOS"]
-    )
+        )
     return vot
 
 def get_candidates_governor(year, uf):
-    vot = get_candidates(year=year, position="Governor",
-                        filters={"SIGLA_UF": uf, "NUM_TURNO": 1},
-                        columns=["ANO_ELEICAO", "NUM_TURNO", "SIGLA_UF", "NOME_URNA_CANDIDATO", "NUMERO_PARTIDO", "SIGLA_PARTIDO", "COMPOSICAO_LEGENDA"])
+    try:
+        vot = get_candidates(year=year, position="Governor",
+            filters={"SIGLA_UF": uf, "NUM_TURNO": 1},
+            columns=["ANO_ELEICAO", "NUM_TURNO", "SIGLA_UF", "NOME_URNA_CANDIDATO", "NUMERO_PARTIDO", 
+                    "SIGLA_PARTIDO", "COMPOSICAO_LEGENDA"]
+        )
+    except:
+        print('error on API')
+        sleep(60)
+        vot = get_candidates(year=year, position="Governor",
+            filters={"SIGLA_UF": uf, "NUM_TURNO": 1},
+            columns=["ANO_ELEICAO", "NUM_TURNO", "SIGLA_UF", "NOME_URNA_CANDIDATO", "NUMERO_PARTIDO", 
+                    "SIGLA_PARTIDO", "COMPOSICAO_LEGENDA"]
+        )
     return vot
 
 def get_governor_votes_list(year, uf):
