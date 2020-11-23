@@ -33,6 +33,7 @@ def analysis_governor(year, uf):
 def analysis_votes(votes_list):
     votes_list_position = set_position_election(votes_list)
     print('VOTES POSITION')
+    print(votes_list_position)
     count = get_count_position(votes_list_position)
     print('COUNT POSITION')
     show_plot(count)

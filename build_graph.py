@@ -56,9 +56,8 @@ def set_position_election_only(votes_list):
             if party['abbrev'] == i:
                 list_position.append(party['position'])
 
-            if party['abbrev'] == votes_list['party']:
+            if party['abbrev'] == votes_list['party'].strip().replace(' ', ''):
                 position_party_candidate = party['position']
-    
 
     counter_position = dict(Counter(list_position))
     result = check_counter_position_repeated(counter_position)
