@@ -284,26 +284,30 @@ def set_state_cities(uf):
 
 def set_position_from_cities(dict_state, year):
     list_city = []
-    #for city in range(326, len(dict_state)):
+    #for city in range(57, len(dict_state)):
     for city in dict_state:
         votes_list = get_mayor_votes_list(year, city['tse_code'])
         #votes_list = get_mayor_votes_list(year, dict_state[city]['tse_code'])
 
-        votes_count = []
-        for i in votes_list:
-            votes_count.append(int(i['num_votes']))
-        
-        major_vote = largest_votes(votes_count)
+        if len(votes_list) == 0:
+            print('error votes_list empty: ', city['tse_code'], city['name'])
+            pass
+        else:
+            votes_count = []
+            for i in votes_list:
+                votes_count.append(int(i['num_votes']))
+            
+            major_vote = largest_votes(votes_count)
 
-        most_votes_candidate = {}
-        for i in votes_list:
-            if int(i['num_votes']) == major_vote:
-                most_votes_candidate = i
+            most_votes_candidate = {}
+            for i in votes_list:
+                if int(i['num_votes']) == major_vote:
+                    most_votes_candidate = i
 
-        votes_list_position = set_position_election_only(most_votes_candidate)
-        list_city.append(votes_list_position)
+            votes_list_position = set_position_election_only(most_votes_candidate)
+            list_city.append(votes_list_position)
 
-        print(votes_list_position)
+            print(votes_list_position)
     
     return list_city
 
